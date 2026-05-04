@@ -1,0 +1,4 @@
+# Save the current area memory to a file
+
+# Path of an area localization file that describes the surroundings. Use ".area" extension.
+string area_file_path

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mavivatan_interfaces__rs",
+		"source" : "/home/baris/mavivatan_ws/build/mavivatan_interfaces/mavivatan_interfaces__rs"
+	}
+}

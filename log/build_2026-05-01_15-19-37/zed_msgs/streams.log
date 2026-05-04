@@ -1,0 +1,908 @@
+[0.031s] Invoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_msgs
+[0.171s] -- The C compiler identification is GNU 11.4.0
+[0.292s] -- The CXX compiler identification is GNU 11.4.0
+[0.311s] -- Detecting C compiler ABI info
+[0.459s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.483s] -- Detecting C compile features - done
+[0.493s] -- Detecting CXX compiler ABI info
+[0.669s] -- Detecting CXX compiler ABI info - done
+[0.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.696s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.704s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.079s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.528s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.537s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.554s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.775s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.681s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.220s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.225s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.287s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.287s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.288s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.288s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.373s] -- Found PythonExtra: .so  
+[4.798s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.810s] -- Added test 'lint_cmake' to check CMake code style
+[4.821s] -- Added test 'xmllint' to check XML markup files
+[4.831s] -- Configuring done
+[5.022s] -- Generating done
+[5.087s] -- Build files have been written to: /home/baris/mavivatan_ws/build/zed_msgs
+[5.126s] Invoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_msgs
+[5.127s] Invoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_msgs -- -j6 -l6
+[5.434s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.445s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.525s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.555s] [  2%] Built target ament_cmake_python_copy_zed_msgs
+[6.856s] running egg_info
+[6.859s] creating zed_msgs.egg-info
+[6.860s] writing zed_msgs.egg-info/PKG-INFO
+[6.861s] writing dependency_links to zed_msgs.egg-info/dependency_links.txt
+[6.862s] writing top-level names to zed_msgs.egg-info/top_level.txt
+[6.864s] writing manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[6.871s] reading manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[6.873s] writing manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[7.003s] [  2%] Built target ament_cmake_python_build_zed_msgs_egg
+[9.711s] [  2%] Built target zed_msgs__rs
+[13.524s] [  2%] Built target zed_msgs__cpp
+[13.551s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.556s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.562s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.036s] [  2%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/object__functions.c.o[0m
+[15.040s] [  3%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/objects_stamped__functions.c.o[0m
+[15.055s] [  3%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint2_di__functions.c.o[0m
+[15.358s] [  4%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint2_df__functions.c.o[0m
+[15.422s] [  4%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint3_d__functions.c.o[0m
+[15.525s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box2_di__functions.c.o[0m
+[15.593s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box2_df__functions.c.o[0m
+[15.711s] [  6%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[15.816s] [  6%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/skeleton2_d__functions.c.o[0m
+[15.854s] [  7%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/skeleton3_d__functions.c.o[0m
+[15.976s] [  7%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/depth_info_stamped__functions.c.o[0m
+[16.154s] [  7%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/pos_track_status__functions.c.o[0m
+[16.163s] [  8%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/plane_stamped__functions.c.o[0m
+[16.439s] [  9%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/gnss_fusion_status__functions.c.o[0m
+[16.595s] [  9%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/heartbeat__functions.c.o[0m
+[16.638s] [ 10%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/mag_heading_status__functions.c.o[0m
+[16.782s] [ 10%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/svo_status__functions.c.o[0m
+[16.909s] [ 11%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/health_status_stamped__functions.c.o[0m
+[17.011s] [ 11%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_pose__functions.c.o[0m
+[17.091s] [ 12%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/start_svo_rec__functions.c.o[0m
+[17.240s] [ 12%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_roi__functions.c.o[0m
+[17.481s] [ 13%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_svo_frame__functions.c.o[0m
+[17.625s] [ 13%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/save_area_memory__functions.c.o[0m
+[18.105s] [ 13%] [32m[1mLinking C shared library libzed_msgs__rosidl_generator_c.so[0m
+[18.229s] [ 13%] Built target zed_msgs__rosidl_generator_c
+[18.258s] [ 14%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.260s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.274s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.525s] [ 17%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/object__type_support.cpp.o[0m
+[20.367s] [ 18%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/object__type_support.cpp.o[0m
+[20.558s] [ 18%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/objects_stamped__type_support.cpp.o[0m
+[20.927s] [ 19%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[21.496s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint2_di__type_support.cpp.o[0m
+[22.552s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/objects_stamped__type_support.cpp.o[0m
+[22.621s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/objects_stamped__type_support.cpp.o[0m
+[22.891s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint2_df__type_support.cpp.o[0m
+[24.745s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/object__type_support.cpp.o[0m
+[24.805s] [ 21%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint3_d__type_support.cpp.o[0m
+[25.004s] [ 21%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/objects_stamped__type_support.cpp.o[0m
+[25.238s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint2_di__type_support.cpp.o[0m
+[25.469s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint2_df__type_support.cpp.o[0m
+[25.656s] [ 23%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint3_d__type_support.cpp.o[0m
+[25.817s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o[0m
+[25.885s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box2_di__type_support.cpp.o[0m
+[26.058s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box2_df__type_support.cpp.o[0m
+[26.170s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box2_di__type_support.cpp.o[0m
+[26.190s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[26.251s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint2_di__type_support.cpp.o[0m
+[26.297s] [ 27%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/skeleton2_d__type_support.cpp.o[0m
+[26.412s] [ 27%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/skeleton3_d__type_support.cpp.o[0m
+[26.543s] [ 28%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/depth_info_stamped__type_support.cpp.o[0m
+[26.681s] [ 28%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/plane_stamped__type_support.cpp.o[0m
+[26.794s] [ 29%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/pos_track_status__type_support.cpp.o[0m
+[26.937s] [ 29%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/gnss_fusion_status__type_support.cpp.o[0m
+[27.095s] [ 30%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/heartbeat__type_support.cpp.o[0m
+[27.120s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box2_df__type_support.cpp.o[0m
+[27.127s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint2_df__type_support.cpp.o[0m
+[27.208s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/mag_heading_status__type_support.cpp.o[0m
+[27.290s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint2_df__type_support.cpp.o[0m
+[27.335s] [ 32%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/svo_status__type_support.cpp.o[0m
+[27.352s] [ 32%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/object__type_support.c.o[0m
+[27.408s] [ 32%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/object__type_support_c.cpp.o[0m
+[27.471s] [ 32%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/health_status_stamped__type_support.cpp.o[0m
+[27.583s] [ 32%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/objects_stamped__type_support.c.o[0m
+[27.611s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_pose__type_support.cpp.o[0m
+[27.740s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/start_svo_rec__type_support.cpp.o[0m
+[27.844s] [ 34%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint2_di__type_support.c.o[0m
+[27.889s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_roi__type_support.cpp.o[0m
+[27.968s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[27.994s] [ 35%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint2_df__type_support.c.o[0m
+[28.026s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_svo_frame__type_support.cpp.o[0m
+[28.111s] [ 36%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/save_area_memory__type_support.cpp.o[0m
+[28.199s] [ 36%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_c.so[0m
+[28.271s] [ 37%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint3_d__type_support.c.o[0m
+[28.350s] [ 38%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint3_d__type_support.cpp.o[0m
+[28.352s] [ 38%] Built target zed_msgs__rosidl_typesupport_c
+[28.402s] [ 38%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box2_di__type_support.c.o[0m
+[28.405s] [ 39%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint3_d__type_support.cpp.o[0m
+[28.467s] [ 39%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box2_di__type_support.cpp.o[0m
+[28.604s] [ 40%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box2_df__type_support.c.o[0m
+[28.733s] [ 40%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/objects_stamped__type_support_c.cpp.o[0m
+[28.831s] [ 40%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[28.905s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/skeleton2_d__type_support.cpp.o[0m
+[29.023s] [ 42%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/skeleton2_d__type_support.c.o[0m
+[29.304s] [ 42%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/skeleton3_d__type_support.c.o[0m
+[29.499s] [ 43%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/depth_info_stamped__type_support.c.o[0m
+[29.587s] [ 43%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box2_di__type_support.cpp.o[0m
+[29.610s] [ 44%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box2_df__type_support.cpp.o[0m
+[29.664s] [ 44%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/plane_stamped__type_support.c.o[0m
+[29.685s] [ 45%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/pos_track_status__type_support.c.o[0m
+[29.827s] [ 46%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint2_di__type_support_c.cpp.o[0m
+[29.840s] [ 46%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/skeleton3_d__type_support.cpp.o[0m
+[29.870s] [ 46%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint2_df__type_support_c.cpp.o[0m
+[29.896s] [ 46%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/gnss_fusion_status__type_support.c.o[0m
+[30.175s] [ 47%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/heartbeat__type_support.c.o[0m
+[30.365s] [ 47%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/mag_heading_status__type_support.c.o[0m
+[30.617s] [ 48%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/svo_status__type_support.c.o[0m
+[30.748s] [ 48%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[30.751s] [ 49%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/depth_info_stamped__type_support.cpp.o[0m
+[30.757s] [ 49%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/health_status_stamped__type_support.c.o[0m
+[30.895s] [ 49%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/plane_stamped__type_support.cpp.o[0m
+[30.908s] [ 50%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_pose__type_support.c.o[0m
+[30.975s] [ 51%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box2_df__type_support.cpp.o[0m
+[31.011s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint3_d__type_support_c.cpp.o[0m
+[31.127s] [ 52%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/start_svo_rec__type_support.c.o[0m
+[31.414s] [ 53%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_roi__type_support.c.o[0m
+[31.644s] [ 53%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_svo_frame__type_support.c.o[0m
+[31.708s] [ 54%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/save_area_memory__type_support.c.o[0m
+[31.760s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/pos_track_status__type_support.cpp.o[0m
+[31.846s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/gnss_fusion_status__type_support.cpp.o[0m
+[31.853s] [ 55%] [32m[1mLinking C shared library libzed_msgs__rosidl_typesupport_introspection_c.so[0m
+[31.900s] [ 56%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/skeleton2_d__type_support.cpp.o[0m
+[32.016s] [ 56%] Built target zed_msgs__rosidl_typesupport_introspection_c
+[32.077s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/heartbeat__type_support.cpp.o[0m
+[32.156s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box2_di__type_support_c.cpp.o[0m
+[32.304s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[32.638s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/mag_heading_status__type_support.cpp.o[0m
+[32.660s] [ 58%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/skeleton2_d__type_support.cpp.o[0m
+[32.851s] [ 59%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/svo_status__type_support.cpp.o[0m
+[33.227s] [ 59%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/skeleton3_d__type_support.cpp.o[0m
+[33.459s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box2_df__type_support_c.cpp.o[0m
+[33.554s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/health_status_stamped__type_support.cpp.o[0m
+[33.614s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/skeleton3_d__type_support.cpp.o[0m
+[33.747s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_pose__type_support.cpp.o[0m
+[34.203s] [ 62%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/depth_info_stamped__type_support.cpp.o[0m
+[34.584s] [ 63%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/depth_info_stamped__type_support.cpp.o[0m
+[34.656s] [ 63%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/start_svo_rec__type_support.cpp.o[0m
+[34.699s] [ 63%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[34.744s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_roi__type_support.cpp.o[0m
+[35.292s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/plane_stamped__type_support.cpp.o[0m
+[35.561s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/pos_track_status__type_support.cpp.o[0m
+[35.567s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_svo_frame__type_support.cpp.o[0m
+[35.603s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/gnss_fusion_status__type_support.cpp.o[0m
+[35.941s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/skeleton2_d__type_support_c.cpp.o[0m
+[36.411s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/save_area_memory__type_support.cpp.o[0m
+[36.475s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/plane_stamped__type_support.cpp.o[0m
+[36.684s] [ 68%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/heartbeat__type_support.cpp.o[0m
+[36.875s] [ 68%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/mag_heading_status__type_support.cpp.o[0m
+[36.952s] [ 69%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/svo_status__type_support.cpp.o[0m
+[37.253s] [ 69%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/skeleton3_d__type_support_c.cpp.o[0m
+[37.378s] [ 69%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_cpp.so[0m
+[37.688s] [ 69%] Built target zed_msgs__rosidl_typesupport_cpp
+[37.768s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/depth_info_stamped__type_support_c.cpp.o[0m
+[37.950s] [ 71%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/pos_track_status__type_support.cpp.o[0m
+[38.072s] [ 71%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/health_status_stamped__type_support.cpp.o[0m
+[38.330s] [ 71%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/plane_stamped__type_support_c.cpp.o[0m
+[38.391s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_pose__type_support.cpp.o[0m
+[38.420s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/start_svo_rec__type_support.cpp.o[0m
+[39.781s] [ 73%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/pos_track_status__type_support_c.cpp.o[0m
+[39.915s] [ 73%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/gnss_fusion_status__type_support.cpp.o[0m
+[40.061s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_roi__type_support.cpp.o[0m
+[40.261s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/gnss_fusion_status__type_support_c.cpp.o[0m
+[40.461s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/heartbeat__type_support_c.cpp.o[0m
+[40.612s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o[0m
+[41.364s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/mag_heading_status__type_support.cpp.o[0m
+[41.454s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/mag_heading_status__type_support_c.cpp.o[0m
+[41.498s] [ 77%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/svo_status__type_support.cpp.o[0m
+[41.571s] [ 77%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_svo_frame__type_support.cpp.o[0m
+[41.873s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/svo_status__type_support_c.cpp.o[0m
+[42.002s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/health_status_stamped__type_support.cpp.o[0m
+[42.520s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/health_status_stamped__type_support_c.cpp.o[0m
+[42.696s] [ 79%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[42.809s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/save_area_memory__type_support.cpp.o[0m
+[43.064s] [ 81%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_pose__type_support_c.cpp.o[0m
+[43.088s] [ 81%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/start_svo_rec__type_support.cpp.o[0m
+[43.432s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_roi__type_support.cpp.o[0m
+[43.975s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/start_svo_rec__type_support_c.cpp.o[0m
+[44.181s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_svo_frame__type_support.cpp.o[0m
+[44.243s] [ 82%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[44.456s] [ 83%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_roi__type_support_c.cpp.o[0m
+[44.572s] [ 83%] Built target zed_msgs__rosidl_typesupport_introspection_cpp
+[44.594s] [ 84%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/save_area_memory__type_support.cpp.o[0m
+[44.772s] [ 84%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_svo_frame__type_support_c.cpp.o[0m
+[44.816s] [ 85%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/save_area_memory__type_support_c.cpp.o[0m
+[45.926s] [ 85%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[46.028s] [ 85%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[46.132s] [ 85%] Built target zed_msgs__rosidl_typesupport_fastrtps_c
+[46.216s] [ 85%] Built target zed_msgs__rosidl_typesupport_fastrtps_cpp
+[46.263s] [ 85%] Built target zed_msgs
+[46.313s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[56.394s] [ 85%] Built target zed_msgs__py
+[56.447s] [ 86%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_objects_stamped_s.c.o[0m
+[56.448s] [ 86%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_object_s.c.o[0m
+[56.452s] [ 86%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box2_di_s.c.o[0m
+[56.455s] [ 86%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint2_df_s.c.o[0m
+[56.456s] [ 87%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint3_d_s.c.o[0m
+[56.468s] [ 88%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint2_di_s.c.o[0m
+[56.814s] [ 89%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box2_df_s.c.o[0m
+[56.849s] [ 89%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box3_d_s.c.o[0m
+[56.879s] [ 90%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_skeleton2_d_s.c.o[0m
+[56.936s] [ 90%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_skeleton3_d_s.c.o[0m
+[56.963s] [ 91%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_depth_info_stamped_s.c.o[0m
+[57.207s] [ 91%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_plane_stamped_s.c.o[0m
+[57.211s] [ 92%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_pos_track_status_s.c.o[0m
+[57.228s] [ 92%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_gnss_fusion_status_s.c.o[0m
+[57.277s] [ 93%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_heartbeat_s.c.o[0m
+[57.286s] [ 93%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_mag_heading_status_s.c.o[0m
+[57.518s] [ 93%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_health_status_stamped_s.c.o[0m
+[57.518s] [ 94%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_svo_status_s.c.o[0m
+[57.548s] [ 95%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_pose_s.c.o[0m
+[57.592s] [ 95%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_start_svo_rec_s.c.o[0m
+[57.600s] [ 96%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_roi_s.c.o[0m
+[57.686s] [ 96%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_svo_frame_s.c.o[0m
+[57.881s] [ 97%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_save_area_memory_s.c.o[0m
+[58.220s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/libzed_msgs__rosidl_generator_py.so[0m
+[58.326s] [ 97%] Built target zed_msgs__rosidl_generator_py
+[58.375s] [100%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[58.375s] [100%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[58.376s] [100%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[59.541s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[59.542s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[59.557s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[59.679s] [100%] Built target zed_msgs__rosidl_typesupport_fastrtps_c__pyext
+[59.700s] [100%] Built target zed_msgs__rosidl_typesupport_introspection_c__pyext
+[59.721s] [100%] Built target zed_msgs__rosidl_typesupport_c__pyext
+[59.771s] Invoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_msgs -- -j6 -l6
+[59.776s] Invoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_msgs
+[59.802s] -- Install configuration: "Release"
+[59.803s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/rosidl_interfaces/zed_msgs
+[59.803s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs
+[59.804s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv
+[59.804s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail
+[59.804s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__functions.h
+[59.805s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.h
+[59.805s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.h
+[59.805s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.c
+[59.805s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.c
+[59.806s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.h
+[59.806s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.h
+[59.806s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.h
+[59.807s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.h
+[59.807s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__struct.h
+[59.807s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.h
+[59.808s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__functions.h
+[59.808s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.h
+[59.809s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.c
+[59.809s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__functions.c
+[59.810s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__functions.c
+[59.810s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.h
+[59.810s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.h
+[59.811s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.h
+[59.811s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.h
+[59.811s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/save_area_memory.h
+[59.812s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.h
+[59.812s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.h
+[59.812s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.h
+[59.814s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.h
+[59.814s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg
+[59.815s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail
+[59.815s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.h
+[59.816s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.c
+[59.816s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.h
+[59.817s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.h
+[59.824s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.c
+[59.825s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.h
+[59.828s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.c
+[59.828s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.h
+[59.831s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.h
+[59.835s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.h
+[59.835s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.c
+[59.835s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.h
+[59.836s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.h
+[59.836s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.h
+[59.837s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.h
+[59.838s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.h
+[59.844s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__functions.c
+[59.844s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.h
+[59.844s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.h
+[59.844s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.h
+[59.844s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.h
+[59.846s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.h
+[59.846s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.h
+[59.846s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.h
+[59.846s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.c
+[59.846s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.h
+[59.847s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.h
+[59.847s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.h
+[59.847s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.h
+[59.847s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.h
+[59.850s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.h
+[59.852s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__functions.c
+[59.854s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.h
+[59.855s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.h
+[59.856s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.h
+[59.856s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.c
+[59.856s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.h
+[59.857s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.c
+[59.857s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.c
+[59.858s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.h
+[59.858s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.h
+[59.860s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.c
+[59.865s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.h
+[59.865s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.h
+[59.866s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__functions.h
+[59.866s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.h
+[59.866s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.c
+[59.866s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.c
+[59.866s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.h
+[59.867s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.h
+[59.867s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.h
+[59.867s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.h
+[59.868s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.h
+[59.872s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.h
+[59.872s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.h
+[59.873s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.c
+[59.874s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.h
+[59.874s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.c
+[59.874s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__functions.h
+[59.874s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.h
+[59.875s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.c
+[59.875s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.h
+[59.875s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.h
+[59.876s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.c
+[59.876s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.h
+[59.876s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.h
+[59.876s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.h
+[59.885s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.c
+[59.895s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.h
+[59.895s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.h
+[59.896s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.h
+[59.896s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.h
+[59.896s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.h
+[59.896s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.h
+[59.896s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_c__visibility_control.h
+[59.896s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.h
+[59.896s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.h
+[59.897s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.h
+[59.897s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.h
+[59.897s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.h
+[59.897s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.h
+[59.897s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.h
+[59.897s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.h
+[59.897s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.h
+[59.898s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.h
+[59.898s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.h
+[59.898s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.h
+[59.898s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.h
+[59.898s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.h
+[59.898s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.h
+[59.898s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.h
+[59.899s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/library_path.sh
+[59.899s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/library_path.dsv
+[59.899s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so
+[59.899s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so" to ""
+[59.899s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs
+[59.899s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv
+[59.899s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail
+[59.900s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[59.900s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_c.h
+[59.900s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_fastrtps_c.h
+[59.900s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+[59.900s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+[59.900s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg
+[59.900s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail
+[59.900s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+[59.901s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_c.h
+[59.908s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+[59.909s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+[59.912s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+[59.912s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+[59.912s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_c.h
+[59.913s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+[59.914s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[59.915s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+[59.916s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[59.917s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+[59.917s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+[59.918s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+[59.919s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_c.h
+[59.920s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_c.h
+[59.920s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[59.921s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+[59.922s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[59.923s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so
+[59.925s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[59.925s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs
+[59.926s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv
+[59.927s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail
+[59.927s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__traits.hpp
+[59.928s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__struct.hpp
+[59.929s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__builder.hpp
+[59.930s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.hpp
+[59.931s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.hpp
+[59.932s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__traits.hpp
+[59.933s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.hpp
+[59.934s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__builder.hpp
+[59.935s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__traits.hpp
+[59.936s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__traits.hpp
+[59.936s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.hpp
+[59.937s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__builder.hpp
+[59.938s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__builder.hpp
+[59.939s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__traits.hpp
+[59.940s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.hpp
+[59.941s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.hpp
+[59.942s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__builder.hpp
+[59.942s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.hpp
+[59.943s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.hpp
+[59.944s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.hpp
+[59.945s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.hpp
+[59.946s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.hpp
+[59.946s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.hpp
+[59.947s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/save_area_memory.hpp
+[59.948s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.hpp
+[59.949s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg
+[59.949s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.hpp
+[59.950s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail
+[59.951s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__traits.hpp
+[59.952s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__builder.hpp
+[59.953s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__builder.hpp
+[59.954s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__builder.hpp
+[59.955s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.hpp
+[59.955s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__traits.hpp
+[59.956s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.hpp
+[59.957s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__builder.hpp
+[59.958s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.hpp
+[59.959s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__builder.hpp
+[59.959s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__traits.hpp
+[59.960s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__builder.hpp
+[59.961s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.hpp
+[59.962s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__builder.hpp
+[59.963s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.hpp
+[59.964s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.hpp
+[59.965s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.hpp
+[59.966s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.hpp
+[59.967s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__builder.hpp
+[59.967s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__builder.hpp
+[59.968s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__traits.hpp
+[59.969s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.hpp
+[59.970s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__traits.hpp
+[59.971s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.hpp
+[59.972s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__traits.hpp
+[59.972s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.hpp
+[59.973s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.hpp
+[59.974s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__builder.hpp
+[59.975s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[59.976s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__builder.hpp
+[59.977s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__builder.hpp
+[59.977s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__builder.hpp
+[59.978s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.hpp
+[59.979s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.hpp
+[59.980s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__traits.hpp
+[59.981s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.hpp
+[59.982s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.hpp
+[59.983s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.hpp
+[59.984s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__traits.hpp
+[59.985s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__traits.hpp
+[59.986s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.hpp
+[59.987s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.hpp
+[59.987s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.hpp
+[59.988s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.hpp
+[59.989s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__builder.hpp
+[59.989s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.hpp
+[59.991s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.hpp
+[59.992s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__traits.hpp
+[59.992s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__traits.hpp
+[59.993s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.hpp
+[59.994s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.hpp
+[59.995s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__traits.hpp
+[59.995s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__traits.hpp
+[59.996s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__traits.hpp
+[59.997s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__builder.hpp
+[59.998s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.hpp
+[59.999s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__traits.hpp
+[59.999s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.hpp
+[60.000s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.hpp
+[60.001s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__traits.hpp
+[60.002s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.hpp
+[60.003s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.hpp
+[60.004s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.hpp
+[60.005s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__traits.hpp
+[60.006s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.hpp
+[60.006s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__builder.hpp
+[60.007s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.hpp
+[60.008s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.hpp
+[60.009s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.hpp
+[60.010s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__builder.hpp
+[60.011s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__traits.hpp
+[60.012s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__builder.hpp
+[60.013s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.hpp
+[60.013s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.hpp
+[60.014s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.hpp
+[60.015s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.hpp
+[60.016s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.hpp
+[60.016s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.hpp
+[60.017s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.hpp
+[60.018s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.hpp
+[60.019s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.hpp
+[60.020s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.hpp
+[60.020s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[60.021s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.hpp
+[60.022s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.hpp
+[60.023s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.hpp
+[60.024s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.hpp
+[60.024s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.hpp
+[60.025s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.hpp
+[60.026s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.hpp
+[60.027s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs
+[60.028s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv
+[60.029s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail
+[60.029s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[60.030s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_fastrtps_cpp.hpp
+[60.031s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+[60.032s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[60.033s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/dds_fastrtps
+[60.034s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[60.035s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg
+[60.035s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail
+[60.036s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[60.037s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[60.038s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[60.039s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+[60.040s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[60.041s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[60.042s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[60.043s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[60.044s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[60.045s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_cpp.hpp
+[60.045s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[60.046s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[60.047s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[60.048s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[60.049s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/dds_fastrtps
+[60.049s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[60.050s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_cpp.hpp
+[60.051s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[60.052s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[60.053s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[60.055s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so
+[60.057s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[60.057s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs
+[60.058s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv
+[60.059s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail
+[60.059s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.c
+[60.060s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[60.061s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_introspection_c.h
+[60.063s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.c
+[60.064s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.c
+[60.065s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.c
+[60.066s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_c.h
+[60.066s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+[60.067s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+[60.068s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.c
+[60.069s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg
+[60.069s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail
+[60.070s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.c
+[60.071s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[60.072s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+[60.072s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.c
+[60.073s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.c
+[60.074s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.c
+[60.075s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.c
+[60.076s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[60.077s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.c
+[60.077s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_c.h
+[60.078s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.c
+[60.080s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+[60.081s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.c
+[60.082s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+[60.082s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+[60.084s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.c
+[60.085s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.c
+[60.086s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.c
+[60.086s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.c
+[60.087s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+[60.088s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_c.h
+[60.089s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+[60.090s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+[60.091s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[60.091s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.c
+[60.092s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_c.h
+[60.093s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.c
+[60.094s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+[60.094s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.c
+[60.095s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.c
+[60.096s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+[60.097s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+[60.098s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.c
+[60.098s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+[60.099s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.c
+[60.100s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_c.h
+[60.101s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[60.103s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so
+[60.105s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so" to ""
+[60.106s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so
+[60.108s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so" to ""
+[60.108s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs
+[60.109s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv
+[60.109s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail
+[60.110s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.cpp
+[60.111s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.cpp
+[60.112s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+[60.112s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.cpp
+[60.113s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_introspection_cpp.hpp
+[60.114s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+[60.115s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[60.116s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.cpp
+[60.116s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_cpp.hpp
+[60.117s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.cpp
+[60.118s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg
+[60.118s] -- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail
+[60.119s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+[60.120s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+[60.120s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.cpp
+[60.121s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.cpp
+[60.122s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.cpp
+[60.123s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.cpp
+[60.123s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[60.124s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[60.125s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+[60.126s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.cpp
+[60.127s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_cpp.hpp
+[60.128s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_cpp.hpp
+[60.128s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+[60.129s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.cpp
+[60.130s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[60.131s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.cpp
+[60.131s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.cpp
+[60.132s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_cpp.hpp
+[60.133s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+[60.133s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[60.135s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.cpp
+[60.136s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+[60.137s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.cpp
+[60.138s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.cpp
+[60.138s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.cpp
+[60.139s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.cpp
+[60.140s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.cpp
+[60.141s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+[60.141s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+[60.142s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.cpp
+[60.143s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+[60.144s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.cpp
+[60.145s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+[60.145s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.cpp
+[60.146s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+[60.147s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.cpp
+[60.148s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so
+[60.150s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[60.151s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so
+[60.152s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so" to ""
+[60.153s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.sh
+[60.156s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.dsv
+[60.156s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info
+[60.157s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/SOURCES.txt
+[60.158s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/top_level.txt
+[60.159s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/dependency_links.txt
+[60.160s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/PKG-INFO
+[60.161s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs
+[60.162s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv
+[60.162s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame.py
+[60.164s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec_s.c
+[60.164s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py
+[60.165s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi_s.c
+[60.166s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py
+[60.167s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py
+[60.168s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose_s.c
+[60.169s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame_s.c
+[60.171s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_save_area_memory_s.c
+[60.172s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_save_area_memory.py
+[60.173s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py
+[60.174s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[60.175s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[60.176s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg
+[60.177s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status_s.c
+[60.178s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py
+[60.178s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped_s.c
+[60.179s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df_s.c
+[60.180s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d_s.c
+[60.181s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py
+[60.181s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object_s.c
+[60.182s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df_s.c
+[60.183s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py
+[60.184s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d_s.c
+[60.186s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py
+[60.187s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status_s.c
+[60.188s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat_s.c
+[60.189s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di_s.c
+[60.189s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py
+[60.190s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status_s.c
+[60.191s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped_s.c
+[60.192s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status.py
+[60.192s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py
+[60.193s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py
+[60.194s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py
+[60.195s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py
+[60.196s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py
+[60.196s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py
+[60.197s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py
+[60.198s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped_s.c
+[60.199s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d_s.c
+[60.199s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py
+[60.200s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped_s.c
+[60.201s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py
+[60.202s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status_s.c
+[60.203s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py
+[60.204s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di_s.c
+[60.204s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py
+[60.205s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py
+[60.206s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped.py
+[60.207s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d_s.c
+[60.208s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[60.209s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/libzed_msgs__rosidl_generator_py.so
+[60.210s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[60.211s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py
+[60.212s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[60.213s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c
+[60.439s] Listing '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs'...
+[60.440s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py'...
+[60.440s] Listing '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg'...
+[60.440s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py'...
+[60.440s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py'...
+[60.440s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py'...
+[60.441s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py'...
+[60.441s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py'...
+[60.441s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py'...
+[60.441s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped.py'...
+[60.441s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py'...
+[60.441s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py'...
+[60.441s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py'...
+[60.442s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py'...
+[60.442s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py'...
+[60.442s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py'...
+[60.442s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py'...
+[60.442s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py'...
+[60.442s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py'...
+[60.442s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py'...
+[60.443s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py'...
+[60.443s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status.py'...
+[60.443s] Listing '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv'...
+[60.443s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py'...
+[60.443s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_save_area_memory.py'...
+[60.443s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py'...
+[60.443s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py'...
+[60.444s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame.py'...
+[60.444s] Compiling '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py'...
+[60.458s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[60.460s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[60.460s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[60.462s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[60.463s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[60.464s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[60.464s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so
+[60.465s] -- Set runtime path of "/home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so" to ""
+[60.466s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/rust_packages/zed_msgs
+[60.466s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust
+[60.467s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/Cargo.toml
+[60.467s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src
+[60.467s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/srv
+[60.468s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/srv/rmw.rs
+[60.468s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/msg.rs
+[60.469s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/lib.rs
+[60.470s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/msg
+[60.471s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/msg/rmw.rs
+[60.472s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/srv.rs
+[60.473s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/build.rs
+[60.474s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Object.idl
+[60.476s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.idl
+[60.477s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.idl
+[60.478s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.idl
+[60.479s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.idl
+[60.480s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.idl
+[60.481s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.idl
+[60.482s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.idl
+[60.483s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.idl
+[60.484s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.idl
+[60.485s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.idl
+[60.486s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.idl
+[60.487s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.idl
+[60.488s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.idl
+[60.489s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.idl
+[60.490s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.idl
+[60.491s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.idl
+[60.492s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.idl
+[60.493s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.idl
+[60.494s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.idl
+[60.495s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.idl
+[60.496s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.idl
+[60.497s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory.idl
+[60.498s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Object.msg
+[60.499s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.msg
+[60.499s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.msg
+[60.500s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.msg
+[60.501s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.msg
+[60.503s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.msg
+[60.504s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.msg
+[60.505s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.msg
+[60.506s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.msg
+[60.507s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.msg
+[60.508s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.msg
+[60.509s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.msg
+[60.510s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.msg
+[60.511s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.msg
+[60.512s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.msg
+[60.513s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.msg
+[60.514s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.msg
+[60.515s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.msg
+[60.516s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.srv
+[60.516s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Request.msg
+[60.517s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Response.msg
+[60.518s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.srv
+[60.519s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Request.msg
+[60.520s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Response.msg
+[60.521s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.srv
+[60.521s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Request.msg
+[60.522s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Response.msg
+[60.523s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.srv
+[60.524s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Request.msg
+[60.525s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Response.msg
+[60.526s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory.srv
+[60.527s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory_Request.msg
+[60.528s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory_Response.msg
+[60.530s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/package_run_dependencies/zed_msgs
+[60.531s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/parent_prefix_path/zed_msgs
+[60.532s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.sh
+[60.533s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.dsv
+[60.533s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/path.sh
+[60.534s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/path.dsv
+[60.535s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.bash
+[60.536s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.sh
+[60.537s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.zsh
+[60.538s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.dsv
+[60.539s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.dsv
+[60.540s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/packages/zed_msgs
+[60.541s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport.cmake
+[60.542s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport-release.cmake
+[60.543s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[60.545s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[60.546s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cppExport.cmake
+[60.547s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[60.547s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[60.549s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport.cmake
+[60.549s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[60.550s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport.cmake
+[60.551s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport-release.cmake
+[60.552s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[60.555s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[60.557s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport.cmake
+[60.559s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport-release.cmake
+[60.560s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport.cmake
+[60.561s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport-release.cmake
+[60.562s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake-extras.cmake
+[60.563s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.564s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.565s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[60.566s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[60.567s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[60.568s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[60.569s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig.cmake
+[60.570s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig-version.cmake
+[60.571s] -- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.xml
+[60.583s] Invoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_msgs

@@ -1,0 +1,6 @@
+{
+  "package_name": "mavivatan_interfaces",
+  "non_idl_tuples": [
+    "/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces:msg/IdaDurum.msg"
+  ]
+}

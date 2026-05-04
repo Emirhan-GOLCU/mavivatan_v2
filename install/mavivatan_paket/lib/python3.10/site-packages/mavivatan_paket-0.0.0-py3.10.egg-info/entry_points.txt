@@ -1,0 +1,13 @@
+[console_scripts]
+abone_dugumu = mavivatan_paket.abone_dugumu:main
+gorev_yoneticisi = mavivatan_paket.gorev_yoneticisi:main
+gps_navigasyon = mavivatan_paket.gps_navigasyon:main
+ilk_dugum = mavivatan_paket.ilk_dugum:main
+kanal_navigasyonu = mavivatan_paket.kanal_navigasyonu:main
+mavivatan_yars_ui = mavivatan_paket.mavivatan_yars_ui:main
+mavlink_motor = mavivatan_paket.mavlink_motor:main
+navigasyon_ve_karar = mavivatan_paket.navigasyon_ve_karar:main
+sensor_fuzyonu = mavivatan_paket.sensor_fuzyonu:main
+telemetri_merkezi = mavivatan_paket.telemetri_merkezi:main
+yolo_hedef_tespiti = mavivatan_paket.yolo_hedef_tespiti:main
+

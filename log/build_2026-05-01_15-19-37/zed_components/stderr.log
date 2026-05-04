@@ -1,0 +1,37 @@
+[01m[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_objdet.cpp:[m[K In member function ‘[01m[Kvoid stereolabs::ZedCamera::getCustomOdParams()[m[K’:
+[01m[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_objdet.cpp:339:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KgetEnumParam(std::shared_ptr<rclcpp::Node>, std::string&, const char [8], sl::OBJECT_ACCELERATION_PRESET, sl::OBJECT_ACCELERATION_PRESET, int&, std::__cxx11::basic_string<char>)[m[K’
+  339 |     [01;31m[Ksl_tools::getEnumParam([m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  340 | [01;31m[K      shared_from_this(), param_name, "DEFAULT",[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  341 | [01;31m[K      sl::OBJECT_ACCELERATION_PRESET::DEFAULT,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  342 | [01;31m[K      sl::OBJECT_ACCELERATION_PRESET::LAST,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  343 | [01;31m[K      dummy_object_acceleration_preset,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  344 | [01;31m[K      std::string("  * ") + param_name + ": ")[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:27[m[K,
+                 from [01m[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_objdet.cpp:22[m[K:
+[01m[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/tools/include/sl_tools.hpp:284:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class EnumT> bool sl_tools::getEnumParam(std::shared_ptr<rclcpp::Node>, const string&, const string&, EnumT, EnumT, EnumT&, const string&)[m[K’
+  284 | bool [01;36m[KgetEnumParam[m[K(
+      |      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/tools/include/sl_tools.hpp:284:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_objdet.cpp:339:27:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KEnumT[m[K’ (‘[01m[Ksl::OBJECT_ACCELERATION_PRESET[m[K’ and ‘[01m[Kint[m[K’)
+  339 |     [01;36m[Ksl_tools::getEnumParam([m[K
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  340 | [01;36m[K      shared_from_this(), param_name, "DEFAULT",[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  341 | [01;36m[K      sl::OBJECT_ACCELERATION_PRESET::DEFAULT,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  342 | [01;36m[K      sl::OBJECT_ACCELERATION_PRESET::LAST,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  343 | [01;36m[K      dummy_object_acceleration_preset,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  344 | [01;36m[K      std::string("  * ") + param_name + ": ")[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:160: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_objdet.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/zed_camera_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

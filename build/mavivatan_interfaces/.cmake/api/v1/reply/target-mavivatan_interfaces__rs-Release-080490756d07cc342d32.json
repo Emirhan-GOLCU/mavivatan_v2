@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/baris/mavivatan_ws/build/mavivatan_interfaces/mavivatan_interfaces__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "mavivatan_interfaces__rs::@7a0f82cfe4e3369d7315",
+	"name" : "mavivatan_interfaces__rs",
+	"paths" : 
+	{
+		"build" : "mavivatan_interfaces__rs",
+		"source" : "/home/baris/mavivatan_ws/build/mavivatan_interfaces/mavivatan_interfaces__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/baris/mavivatan_ws/build/mavivatan_interfaces/mavivatan_interfaces__rs/CMakeFiles/mavivatan_interfaces__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/baris/mavivatan_ws/build/mavivatan_interfaces/mavivatan_interfaces__rs/CMakeFiles/mavivatan_interfaces__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/baris/mavivatan_ws/build/mavivatan_interfaces/rosidl_generator_rs/mavivatan_interfaces/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

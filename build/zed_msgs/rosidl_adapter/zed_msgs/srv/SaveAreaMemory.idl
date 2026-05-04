@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zed_msgs/srv/SaveAreaMemory.srv
+// generated code does not contain a copyright notice
+
+
+module zed_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Save the current area memory to a file")
+    struct SaveAreaMemory_Request {
+      @verbatim (language="comment", text=
+        "Path of an area localization file that describes the surroundings. Use \".area\" extension.")
+      string area_file_path;
+    };
+    struct SaveAreaMemory_Response {
+      @verbatim (language="comment", text=
+        "indicate successful run of service")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "informational, e.g. for error messages")
+      string message;
+    };
+  };
+};

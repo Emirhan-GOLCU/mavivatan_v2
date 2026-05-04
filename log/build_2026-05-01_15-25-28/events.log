@@ -1,0 +1,1070 @@
+[0.000000] (-) TimerEvent: {}
+[0.001022] (mavivatan_interfaces) JobQueued: {'identifier': 'mavivatan_interfaces', 'dependencies': OrderedDict()}
+[0.001330] (zed_msgs) JobQueued: {'identifier': 'zed_msgs', 'dependencies': OrderedDict()}
+[0.001579] (mavivatan_paket) JobQueued: {'identifier': 'mavivatan_paket', 'dependencies': OrderedDict([('mavivatan_interfaces', '/home/baris/mavivatan_ws/install/mavivatan_interfaces')])}
+[0.001685] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict([('zed_msgs', '/home/baris/mavivatan_ws/install/zed_msgs')])}
+[0.001863] (zed_debug) JobQueued: {'identifier': 'zed_debug', 'dependencies': OrderedDict([('zed_msgs', '/home/baris/mavivatan_ws/install/zed_msgs'), ('zed_components', '/home/baris/mavivatan_ws/install/zed_components')])}
+[0.001958] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict([('zed_msgs', '/home/baris/mavivatan_ws/install/zed_msgs'), ('zed_components', '/home/baris/mavivatan_ws/install/zed_components')])}
+[0.002013] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict([('zed_msgs', '/home/baris/mavivatan_ws/install/zed_msgs'), ('zed_components', '/home/baris/mavivatan_ws/install/zed_components'), ('zed_wrapper', '/home/baris/mavivatan_ws/install/zed_wrapper')])}
+[0.002069] (zed_msgs) JobStarted: {'identifier': 'zed_msgs'}
+[0.017383] (mavivatan_interfaces) JobStarted: {'identifier': 'mavivatan_interfaces'}
+[0.028378] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'cmake'}
+[0.030348] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'build'}
+[0.031788] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baris/mavivatan_ws/build/zed_msgs', '--', '-j6', '-l6'], 'cwd': '/home/baris/mavivatan_ws/build/zed_msgs', 'env': OrderedDict([('TERM_SESSION_ID', 'd1bf9d6d-99a1-42b5-95cb-1dcae24e765c'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'baris'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baris/mavivatan_ws/install/zed_msgs/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/baris'), ('OLDPWD', '/home/baris/mavivatan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('JETSON_L4T', '36.4.7'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/jetbrains-pycharm.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('MANAGERPID', '2799'), ('SYSTEMD_EXEC_PID', '2970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13511'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/baris/mavivatan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'baris'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1423925002363'), ('JOURNAL_STREAM', '8:45733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/baris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/baris/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2946,unix/ubuntu:/tmp/.ICE-unix/2946'), ('INVOCATION_ID', '5e0a2de511e146f7b68b1ab64b92cc5a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/PyCharm/2970-8-ubuntu_TIME1046740'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_paket:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/baris/mavivatan_ws/build/zed_msgs'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.038858] (mavivatan_interfaces) JobProgress: {'identifier': 'mavivatan_interfaces', 'progress': 'cmake'}
+[0.040529] (mavivatan_interfaces) JobProgress: {'identifier': 'mavivatan_interfaces', 'progress': 'build'}
+[0.041025] (mavivatan_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baris/mavivatan_ws/build/mavivatan_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/baris/mavivatan_ws/build/mavivatan_interfaces', 'env': OrderedDict([('TERM_SESSION_ID', 'd1bf9d6d-99a1-42b5-95cb-1dcae24e765c'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'baris'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baris/mavivatan_ws/install/zed_msgs/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/baris'), ('OLDPWD', '/home/baris/mavivatan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('JETSON_L4T', '36.4.7'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/jetbrains-pycharm.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('MANAGERPID', '2799'), ('SYSTEMD_EXEC_PID', '2970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13511'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/baris/mavivatan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'baris'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1423925002363'), ('JOURNAL_STREAM', '8:45733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/baris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/baris/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2946,unix/ubuntu:/tmp/.ICE-unix/2946'), ('INVOCATION_ID', '5e0a2de511e146f7b68b1ab64b92cc5a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/PyCharm/2970-8-ubuntu_TIME1046740'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_paket:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/baris/mavivatan_ws/build/mavivatan_interfaces'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099280] (-) TimerEvent: {}
+[0.177822] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.178613] (mavivatan_interfaces) StdoutLine: {'line': b'[  3%] Built target mavivatan_interfaces__cpp\n'}
+[0.184832] (zed_msgs) StdoutLine: {'line': b'[  1%] Built target zed_msgs__rs\n'}
+[0.194606] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.195583] (mavivatan_interfaces) StdoutLine: {'line': b'[  6%] Built target mavivatan_interfaces__rs\n'}
+[0.199442] (-) TimerEvent: {}
+[0.210013] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.211813] (mavivatan_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_mavivatan_interfaces\n'}
+[0.216846] (mavivatan_interfaces) StdoutLine: {'line': b'[ 15%] Built target mavivatan_interfaces__rosidl_generator_c\n'}
+[0.223975] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.242412] (zed_msgs) StdoutLine: {'line': b'[  1%] Built target zed_msgs__cpp\n'}
+[0.247801] (zed_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_zed_msgs\n'}
+[0.248313] (mavivatan_interfaces) StdoutLine: {'line': b'[ 25%] Built target mavivatan_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.252455] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.253605] (zed_msgs) StdoutLine: {'line': b'[ 13%] Built target zed_msgs__rosidl_generator_c\n'}
+[0.265224] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.284289] (mavivatan_interfaces) StdoutLine: {'line': b'[ 34%] Built target mavivatan_interfaces__rosidl_typesupport_cpp\n'}
+[0.294473] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.299621] (-) TimerEvent: {}
+[0.315148] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.315825] (mavivatan_interfaces) StdoutLine: {'line': b'[ 43%] Built target mavivatan_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.328813] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.331006] (mavivatan_interfaces) StdoutLine: {'line': b'[ 53%] Built target mavivatan_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.331281] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.334427] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.338590] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.372994] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.381352] (mavivatan_interfaces) StdoutLine: {'line': b'[ 62%] Built target mavivatan_interfaces__rosidl_typesupport_c\n'}
+[0.382967] (mavivatan_interfaces) StdoutLine: {'line': b'[ 71%] Built target mavivatan_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.399781] (-) TimerEvent: {}
+[0.423771] (zed_msgs) StdoutLine: {'line': b'[ 25%] Built target zed_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.426475] (zed_msgs) StdoutLine: {'line': b'[ 37%] Built target zed_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.444940] (zed_msgs) StdoutLine: {'line': b'[ 60%] Built target zed_msgs__rosidl_typesupport_cpp\n'}
+[0.445462] (zed_msgs) StdoutLine: {'line': b'[ 61%] Built target zed_msgs__rosidl_typesupport_introspection_c\n'}
+[0.458272] (zed_msgs) StdoutLine: {'line': b'[ 73%] Built target zed_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.464699] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.473014] (mavivatan_interfaces) StdoutLine: {'line': b'[ 71%] Built target mavivatan_interfaces\n'}
+[0.499931] (-) TimerEvent: {}
+[0.502204] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs__rosidl_typesupport_c\n'}
+[0.528793] (mavivatan_interfaces) StdoutLine: {'line': b'[ 75%] Built target mavivatan_interfaces__py\n'}
+[0.553740] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs\n'}
+[0.555189] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.595044] (mavivatan_interfaces) StdoutLine: {'line': b'[ 81%] Built target mavivatan_interfaces__rosidl_generator_py\n'}
+[0.600055] (-) TimerEvent: {}
+[0.610570] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs__py\n'}
+[0.625448] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.625933] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.643022] (mavivatan_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mavivatan_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.658353] (mavivatan_interfaces) StdoutLine: {'line': b'[ 87%] Built target mavivatan_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.659012] (mavivatan_interfaces) StdoutLine: {'line': b'[ 93%] Built target mavivatan_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.672164] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.675602] (mavivatan_interfaces) StdoutLine: {'line': b'[100%] Built target mavivatan_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.700189] (-) TimerEvent: {}
+[0.748239] (zed_msgs) StdoutLine: {'line': b'[ 97%] Built target zed_msgs__rosidl_generator_py\n'}
+[0.774291] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.775028] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.775320] (zed_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.800357] (-) TimerEvent: {}
+[0.815469] (zed_msgs) StdoutLine: {'line': b'[ 99%] Built target zed_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.816074] (zed_msgs) StdoutLine: {'line': b'[ 99%] Built target zed_msgs__rosidl_typesupport_c__pyext\n'}
+[0.816407] (zed_msgs) StdoutLine: {'line': b'[100%] Built target zed_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.825005] (mavivatan_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.826765] (mavivatan_interfaces) StdoutLine: {'line': b'writing mavivatan_interfaces.egg-info/PKG-INFO\n'}
+[0.827426] (mavivatan_interfaces) StdoutLine: {'line': b'writing dependency_links to mavivatan_interfaces.egg-info/dependency_links.txt\n'}
+[0.827954] (mavivatan_interfaces) StdoutLine: {'line': b'writing top-level names to mavivatan_interfaces.egg-info/top_level.txt\n'}
+[0.834058] (mavivatan_interfaces) StdoutLine: {'line': b"reading manifest file 'mavivatan_interfaces.egg-info/SOURCES.txt'\n"}
+[0.835520] (mavivatan_interfaces) StdoutLine: {'line': b"writing manifest file 'mavivatan_interfaces.egg-info/SOURCES.txt'\n"}
+[0.900505] (-) TimerEvent: {}
+[0.915166] (mavivatan_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_mavivatan_interfaces_egg\n'}
+[0.947987] (mavivatan_interfaces) CommandEnded: {'returncode': 0}
+[0.949541] (zed_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.951216] (zed_msgs) StdoutLine: {'line': b'writing zed_msgs.egg-info/PKG-INFO\n'}
+[0.952010] (zed_msgs) StdoutLine: {'line': b'writing dependency_links to zed_msgs.egg-info/dependency_links.txt\n'}
+[0.952934] (mavivatan_interfaces) JobProgress: {'identifier': 'mavivatan_interfaces', 'progress': 'install'}
+[0.953130] (zed_msgs) StdoutLine: {'line': b'writing top-level names to zed_msgs.egg-info/top_level.txt\n'}
+[0.958604] (zed_msgs) StdoutLine: {'line': b"reading manifest file 'zed_msgs.egg-info/SOURCES.txt'\n"}
+[0.960375] (zed_msgs) StdoutLine: {'line': b"writing manifest file 'zed_msgs.egg-info/SOURCES.txt'\n"}
+[0.973829] (mavivatan_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/baris/mavivatan_ws/build/mavivatan_interfaces'], 'cwd': '/home/baris/mavivatan_ws/build/mavivatan_interfaces', 'env': OrderedDict([('TERM_SESSION_ID', 'd1bf9d6d-99a1-42b5-95cb-1dcae24e765c'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'baris'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baris/mavivatan_ws/install/zed_msgs/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/baris'), ('OLDPWD', '/home/baris/mavivatan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('JETSON_L4T', '36.4.7'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/jetbrains-pycharm.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('MANAGERPID', '2799'), ('SYSTEMD_EXEC_PID', '2970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13511'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/baris/mavivatan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'baris'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1423925002363'), ('JOURNAL_STREAM', '8:45733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/baris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/baris/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2946,unix/ubuntu:/tmp/.ICE-unix/2946'), ('INVOCATION_ID', '5e0a2de511e146f7b68b1ab64b92cc5a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/PyCharm/2970-8-ubuntu_TIME1046740'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_paket:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/baris/mavivatan_ws/build/mavivatan_interfaces'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.996040] (mavivatan_interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.996794] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/ament_index/resource_index/rosidl_interfaces/mavivatan_interfaces\n'}
+[0.997131] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces\n'}
+[0.997384] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg\n'}
+[0.997737] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail\n'}
+[0.998015] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__functions.h\n'}
+[0.998184] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__functions.c\n'}
+[0.998377] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__type_support.h\n'}
+[0.998557] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__struct.h\n'}
+[0.998708] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.998856] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/ida_durum.h\n'}
+[0.999233] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/library_path.sh\n'}
+[0.999455] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/library_path.dsv\n'}
+[0.999602] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_generator_c.so\n'}
+[0.999811] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces\n'}
+[1.000024] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg\n'}
+[1.000180] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail\n'}
+[1.000323] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__rosidl_typesupport_fastrtps_c.h\n'}
+[1.000466] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.000642] (-) TimerEvent: {}
+[1.001498] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.001816] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces\n'}
+[1.001997] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg\n'}
+[1.002147] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail\n'}
+[1.002286] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__rosidl_typesupport_introspection_c.h\n'}
+[1.002457] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__type_support.c\n'}
+[1.002663] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.002836] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.003081] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_typesupport_c.so\n'}
+[1.003358] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces\n'}
+[1.003589] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg\n'}
+[1.003828] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail\n'}
+[1.004008] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__builder.hpp\n'}
+[1.004157] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__struct.hpp\n'}
+[1.004315] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__type_support.hpp\n'}
+[1.004503] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__traits.hpp\n'}
+[1.004648] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.004876] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/ida_durum.hpp\n'}
+[1.005084] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces\n'}
+[1.005229] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg\n'}
+[1.005369] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail\n'}
+[1.005582] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.005748] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/dds_fastrtps\n'}
+[1.005892] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.006033] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.006189] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces\n'}
+[1.006373] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg\n'}
+[1.006513] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail\n'}
+[1.006684] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.006891] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/include/mavivatan_interfaces/mavivatan_interfaces/msg/detail/ida_durum__type_support.cpp\n'}
+[1.007107] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.007253] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.007393] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/pythonpath.sh\n'}
+[1.007586] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/pythonpath.dsv\n'}
+[1.007758] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.007906] (mavivatan_interfaces) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.008081] (mavivatan_interfaces) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.008226] (mavivatan_interfaces) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.008388] (mavivatan_interfaces) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.008536] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces\n'}
+[1.008754] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/_mavivatan_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.008898] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/_mavivatan_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.009037] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/libmavivatan_interfaces__rosidl_generator_py.so\n'}
+[1.009241] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/mavivatan_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.009445] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/_mavivatan_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.009686] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/msg\n'}
+[1.009908] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/msg/_ida_durum.py\n'}
+[1.010055] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/msg/_ida_durum_s.c\n'}
+[1.010223] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/msg/__init__.py\n'}
+[1.010365] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/mavivatan_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.010508] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/mavivatan_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.010650] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/__init__.py\n'}
+[1.040461] (zed_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_zed_msgs_egg\n'}
+[1.069095] (zed_msgs) CommandEnded: {'returncode': 0}
+[1.071233] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'install'}
+[1.071728] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/baris/mavivatan_ws/build/zed_msgs'], 'cwd': '/home/baris/mavivatan_ws/build/zed_msgs', 'env': OrderedDict([('TERM_SESSION_ID', 'd1bf9d6d-99a1-42b5-95cb-1dcae24e765c'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'baris'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baris/mavivatan_ws/install/zed_msgs/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/baris'), ('OLDPWD', '/home/baris/mavivatan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('JETSON_L4T', '36.4.7'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/jetbrains-pycharm.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('MANAGERPID', '2799'), ('SYSTEMD_EXEC_PID', '2970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13511'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/baris/mavivatan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'baris'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1423925002363'), ('JOURNAL_STREAM', '8:45733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/baris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/baris/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2946,unix/ubuntu:/tmp/.ICE-unix/2946'), ('INVOCATION_ID', '5e0a2de511e146f7b68b1ab64b92cc5a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/PyCharm/2970-8-ubuntu_TIME1046740'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_paket:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/baris/mavivatan_ws/build/zed_msgs'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[1.086865] (mavivatan_interfaces) StdoutLine: {'line': b"Listing '/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces'...\n"}
+[1.087362] (mavivatan_interfaces) StdoutLine: {'line': b"Listing '/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/msg'...\n"}
+[1.092970] (zed_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.093515] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/rosidl_interfaces/zed_msgs\n'}
+[1.093841] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs\n'}
+[1.094125] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv\n'}
+[1.094387] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail\n'}
+[1.094669] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__functions.h\n'}
+[1.095050] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.h\n'}
+[1.095270] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.h\n'}
+[1.095492] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.c\n'}
+[1.095737] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.c\n'}
+[1.096171] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.h\n'}
+[1.096445] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.h\n'}
+[1.096726] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.h\n'}
+[1.096998] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.h\n'}
+[1.097258] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__struct.h\n'}
+[1.097497] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.h\n'}
+[1.097750] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__functions.h\n'}
+[1.098026] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.h\n'}
+[1.098275] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.c\n'}
+[1.098512] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__functions.c\n'}
+[1.098762] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__functions.c\n'}
+[1.099167] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.h\n'}
+[1.099462] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.h\n'}
+[1.099803] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.h\n'}
+[1.100081] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.h\n'}
+[1.100338] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/save_area_memory.h\n'}
+[1.100531] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.h\n'}
+[1.100695] (-) TimerEvent: {}
+[1.101522] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.h\n'}
+[1.101803] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.h\n'}
+[1.102103] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.h\n'}
+[1.102361] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg\n'}
+[1.102546] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail\n'}
+[1.103026] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.h\n'}
+[1.104415] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.c\n'}
+[1.104871] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.h\n'}
+[1.105417] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.h\n'}
+[1.106109] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.c\n'}
+[1.106526] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.h\n'}
+[1.106932] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.c\n'}
+[1.107956] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.h\n'}
+[1.108520] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.h\n'}
+[1.109054] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.h\n'}
+[1.110622] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.c\n'}
+[1.111134] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.h\n'}
+[1.111614] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.h\n'}
+[1.112047] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.h\n'}
+[1.112553] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.h\n'}
+[1.115512] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.h\n'}
+[1.116097] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__functions.c\n'}
+[1.116520] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.h\n'}
+[1.116812] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.h\n'}
+[1.117168] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.h\n'}
+[1.117849] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.h\n'}
+[1.118313] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.h\n'}
+[1.118903] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.h\n'}
+[1.119229] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.h\n'}
+[1.119464] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.c\n'}
+[1.120251] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.h\n'}
+[1.120607] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.h\n'}
+[1.120964] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.h\n'}
+[1.121230] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.h\n'}
+[1.121625] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.h\n'}
+[1.121905] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.h\n'}
+[1.122064] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__functions.c\n'}
+[1.122214] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.h\n'}
+[1.122392] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.h\n'}
+[1.122627] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.h\n'}
+[1.122779] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.c\n'}
+[1.122924] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.h\n'}
+[1.123188] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.c\n'}
+[1.123491] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.c\n'}
+[1.123780] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.h\n'}
+[1.124138] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.h\n'}
+[1.124519] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.c\n'}
+[1.124871] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.h\n'}
+[1.125186] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.h\n'}
+[1.125541] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__functions.h\n'}
+[1.125906] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.h\n'}
+[1.126238] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.c\n'}
+[1.126481] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.c\n'}
+[1.126636] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.h\n'}
+[1.126865] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.h\n'}
+[1.127153] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.h\n'}
+[1.127315] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.h\n'}
+[1.127556] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.h\n'}
+[1.127747] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.h\n'}
+[1.127995] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.h\n'}
+[1.128217] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.c\n'}
+[1.128425] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.h\n'}
+[1.128573] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.c\n'}
+[1.128726] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__functions.h\n'}
+[1.128948] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.h\n'}
+[1.129148] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.c\n'}
+[1.129302] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.h\n'}
+[1.129507] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.h\n'}
+[1.129654] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.c\n'}
+[1.129796] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.h\n'}
+[1.129974] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.h\n'}
+[1.130164] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.h\n'}
+[1.130484] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.c\n'}
+[1.131091] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.h\n'}
+[1.132218] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.h\n'}
+[1.132711] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.h\n'}
+[1.134490] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.h\n'}
+[1.134999] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.h\n'}
+[1.135322] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.h\n'}
+[1.135585] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.135789] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.h\n'}
+[1.136280] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.h\n'}
+[1.136566] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.h\n'}
+[1.136980] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.h\n'}
+[1.137176] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.h\n'}
+[1.137367] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.h\n'}
+[1.137723] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.h\n'}
+[1.137917] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.h\n'}
+[1.138107] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.h\n'}
+[1.138459] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.h\n'}
+[1.138633] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.h\n'}
+[1.139009] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.h\n'}
+[1.139214] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.h\n'}
+[1.139827] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.h\n'}
+[1.140269] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.h\n'}
+[1.141241] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.h\n'}
+[1.141435] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/mavivatan_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.141632] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/library_path.sh\n'}
+[1.141811] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/library_path.dsv\n'}
+[1.142511] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/mavivatan_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.142725] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so\n'}
+[1.143170] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs\n'}
+[1.143341] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv\n'}
+[1.143488] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail\n'}
+[1.143700] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages/mavivatan_interfaces/mavivatan_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.143871] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.144279] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[1.144478] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_fastrtps_c.h\n'}
+[1.144853] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h\n'}
+[1.145057] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h\n'}
+[1.145691] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg\n'}
+[1.145928] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail\n'}
+[1.146342] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[1.146681] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.147069] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[1.147290] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[1.147546] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.147883] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[1.148104] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.148454] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[1.148659] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/libmavivatan_interfaces__rosidl_generator_py.so\n'}
+[1.148847] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.149196] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.149396] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[1.149605] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.149982] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[1.150199] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.150519] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[1.150700] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.152375] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h\n'}
+[1.152722] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[1.153067] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.153340] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/ament_index/resource_index/rust_packages/mavivatan_interfaces\n'}
+[1.153551] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust\n'}
+[1.153703] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust/Cargo.toml\n'}
+[1.154049] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust/src\n'}
+[1.154356] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust/src/msg.rs\n'}
+[1.154700] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust/src/lib.rs\n'}
+[1.155326] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.155652] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust/src/msg\n'}
+[1.155963] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust/src/msg/rmw.rs\n'}
+[1.156265] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/rust/build.rs\n'}
+[1.156587] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs\n'}
+[1.156890] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/msg/IdaDurum.idl\n'}
+[1.157215] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv\n'}
+[1.157381] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail\n'}
+[1.157537] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/msg/IdaDurum.msg\n'}
+[1.157686] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/ament_index/resource_index/package_run_dependencies/mavivatan_interfaces\n'}
+[1.157838] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__traits.hpp\n'}
+[1.157983] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__struct.hpp\n'}
+[1.158138] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__builder.hpp\n'}
+[1.158283] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.hpp\n'}
+[1.158428] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.hpp\n'}
+[1.158572] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__traits.hpp\n'}
+[1.158717] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.hpp\n'}
+[1.158862] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__builder.hpp\n'}
+[1.159747] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/ament_index/resource_index/parent_prefix_path/mavivatan_interfaces\n'}
+[1.160019] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__traits.hpp\n'}
+[1.160188] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__traits.hpp\n'}
+[1.160396] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.hpp\n'}
+[1.160673] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/ament_prefix_path.sh\n'}
+[1.160907] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__builder.hpp\n'}
+[1.161132] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__builder.hpp\n'}
+[1.161343] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__traits.hpp\n'}
+[1.161544] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.161789] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.hpp\n'}
+[1.162021] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.hpp\n'}
+[1.162240] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/path.sh\n'}
+[1.162461] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/environment/path.dsv\n'}
+[1.162612] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__builder.hpp\n'}
+[1.162856] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.hpp\n'}
+[1.163150] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.hpp\n'}
+[1.163385] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.hpp\n'}
+[1.163632] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.hpp\n'}
+[1.163802] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.hpp\n'}
+[1.164012] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/local_setup.bash\n'}
+[1.164265] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.hpp\n'}
+[1.164517] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/local_setup.sh\n'}
+[1.164722] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/save_area_memory.hpp\n'}
+[1.164915] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.hpp\n'}
+[1.165147] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg\n'}
+[1.165375] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/local_setup.zsh\n'}
+[1.165682] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/local_setup.dsv\n'}
+[1.165930] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.hpp\n'}
+[1.166154] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail\n'}
+[1.166380] (mavivatan_interfaces) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.dsv\n'}
+[1.167659] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__traits.hpp\n'}
+[1.168109] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__builder.hpp\n'}
+[1.168336] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__builder.hpp\n'}
+[1.169492] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__builder.hpp\n'}
+[1.169712] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.hpp\n'}
+[1.169979] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__traits.hpp\n'}
+[1.170384] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.hpp\n'}
+[1.170804] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__builder.hpp\n'}
+[1.170983] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.hpp\n'}
+[1.171733] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__builder.hpp\n'}
+[1.171939] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__traits.hpp\n'}
+[1.172198] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__builder.hpp\n'}
+[1.172766] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/ament_index/resource_index/packages/mavivatan_interfaces\n'}
+[1.173872] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.hpp\n'}
+[1.174051] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__builder.hpp\n'}
+[1.174287] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.hpp\n'}
+[1.174520] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.hpp\n'}
+[1.174784] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.hpp\n'}
+[1.175787] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.hpp\n'}
+[1.176476] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__builder.hpp\n'}
+[1.176720] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__builder.hpp\n'}
+[1.176919] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__traits.hpp\n'}
+[1.178099] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.hpp\n'}
+[1.178311] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__traits.hpp\n'}
+[1.179106] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.hpp\n'}
+[1.179355] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__traits.hpp\n'}
+[1.179629] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.hpp\n'}
+[1.180158] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.hpp\n'}
+[1.180317] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__builder.hpp\n'}
+[1.180468] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.hpp\n'}
+[1.181064] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__builder.hpp\n'}
+[1.181315] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.181578] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[1.182132] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__builder.hpp\n'}
+[1.182786] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__builder.hpp\n'}
+[1.183046] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.hpp\n'}
+[1.183352] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.hpp\n'}
+[1.183998] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__traits.hpp\n'}
+[1.185895] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.hpp\n'}
+[1.187265] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.hpp\n'}
+[1.187543] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.hpp\n'}
+[1.189943] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__traits.hpp\n'}
+[1.190188] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__traits.hpp\n'}
+[1.190437] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.hpp\n'}
+[1.191025] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.hpp\n'}
+[1.191288] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.hpp\n'}
+[1.192413] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.hpp\n'}
+[1.192665] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.192886] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__builder.hpp\n'}
+[1.193481] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.hpp\n'}
+[1.195815] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.hpp\n'}
+[1.196110] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__traits.hpp\n'}
+[1.196386] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__traits.hpp\n'}
+[1.197102] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[1.197348] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.hpp\n'}
+[1.198745] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.hpp\n'}
+[1.198984] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__traits.hpp\n'}
+[1.199244] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__traits.hpp\n'}
+[1.199826] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__traits.hpp\n'}
+[1.200064] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__builder.hpp\n'}
+[1.201653] (-) TimerEvent: {}
+[1.201984] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.hpp\n'}
+[1.202242] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__traits.hpp\n'}
+[1.202412] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.hpp\n'}
+[1.202906] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.hpp\n'}
+[1.203300] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__traits.hpp\n'}
+[1.203546] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.hpp\n'}
+[1.203949] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.hpp\n'}
+[1.204194] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.hpp\n'}
+[1.204465] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__traits.hpp\n'}
+[1.205960] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.hpp\n'}
+[1.207145] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__builder.hpp\n'}
+[1.208253] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.hpp\n'}
+[1.208644] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.208986] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.hpp\n'}
+[1.209264] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.hpp\n'}
+[1.209653] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__builder.hpp\n'}
+[1.209851] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__traits.hpp\n'}
+[1.210081] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[1.210346] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__builder.hpp\n'}
+[1.210599] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.hpp\n'}
+[1.210854] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.hpp\n'}
+[1.211138] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.hpp\n'}
+[1.211408] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.hpp\n'}
+[1.211844] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.hpp\n'}
+[1.212088] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.hpp\n'}
+[1.212270] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.hpp\n'}
+[1.212468] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.hpp\n'}
+[1.212673] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.hpp\n'}
+[1.212893] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.hpp\n'}
+[1.213123] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.213301] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.hpp\n'}
+[1.213458] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.hpp\n'}
+[1.213659] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.hpp\n'}
+[1.213867] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.hpp\n'}
+[1.214068] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.hpp\n'}
+[1.214255] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.hpp\n'}
+[1.214454] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.hpp\n'}
+[1.214654] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs\n'}
+[1.214836] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv\n'}
+[1.215080] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail\n'}
+[1.215334] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.215544] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.215797] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.216002] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.216179] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/dds_fastrtps\n'}
+[1.216397] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.216616] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg\n'}
+[1.216780] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail\n'}
+[1.216968] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.217148] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.217532] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.219355] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.219797] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.220049] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.220410] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.220750] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.220936] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[1.221087] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.221271] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.221869] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.222150] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.222323] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.222538] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.223157] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.223894] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.224123] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.224753] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/dds_fastrtps\n'}
+[1.225213] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.225541] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.226538] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.226973] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.227668] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.227879] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.228093] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs\n'}
+[1.228573] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[1.229100] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv\n'}
+[1.229309] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail\n'}
+[1.229529] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.c\n'}
+[1.229984] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_c.h\n'}
+[1.230639] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_introspection_c.h\n'}
+[1.230852] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.c\n'}
+[1.231094] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.c\n'}
+[1.231630] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.c\n'}
+[1.233230] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_c.h\n'}
+[1.234450] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_c.h\n'}
+[1.236198] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.236497] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h\n'}
+[1.237022] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.c\n'}
+[1.237184] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg\n'}
+[1.237367] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail\n'}
+[1.237524] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[1.237675] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.c\n'}
+[1.237820] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h\n'}
+[1.237961] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h\n'}
+[1.238980] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.c\n'}
+[1.239303] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.c\n'}
+[1.239557] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.c\n'}
+[1.239771] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.c\n'}
+[1.240340] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.241953] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[1.242294] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.c\n'}
+[1.242680] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_c.h\n'}
+[1.243274] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.c\n'}
+[1.243962] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[1.244346] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h\n'}
+[1.245390] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.c\n'}
+[1.246351] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h\n'}
+[1.246862] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h\n'}
+[1.248731] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.c\n'}
+[1.249558] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.c\n'}
+[1.249924] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.c\n'}
+[1.250821] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.c\n'}
+[1.251169] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h\n'}
+[1.251689] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_c.h\n'}
+[1.252379] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.252778] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h\n'}
+[1.255310] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h\n'}
+[1.256310] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[1.256593] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.c\n'}
+[1.256885] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/export_mavivatan_interfaces__rosidl_generator_pyExport-release.cmake\n'}
+[1.257213] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_c.h\n'}
+[1.257636] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.259301] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.259772] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.260480] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.c\n'}
+[1.260799] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.261664] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h\n'}
+[1.261967] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.c\n'}
+[1.263717] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.c\n'}
+[1.264009] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h\n'}
+[1.264269] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h\n'}
+[1.264553] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.c\n'}
+[1.264754] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h\n'}
+[1.265023] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.c\n'}
+[1.265258] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.265512] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_c.h\n'}
+[1.265758] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.265947] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.266280] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.267236] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfacesConfig.cmake\n'}
+[1.267542] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/cmake/mavivatan_interfacesConfig-version.cmake\n'}
+[1.267788] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.268104] (mavivatan_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.xml\n'}
+[1.268464] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so\n'}
+[1.268825] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs\n'}
+[1.269115] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv\n'}
+[1.269527] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail\n'}
+[1.269783] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.cpp\n'}
+[1.270333] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.cpp\n'}
+[1.270489] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.270677] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.cpp\n'}
+[1.270905] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.271191] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.272046] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.272274] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.cpp\n'}
+[1.272505] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.272730] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/save_area_memory__type_support.cpp\n'}
+[1.272914] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg\n'}
+[1.274171] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail\n'}
+[1.274410] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.274634] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.274883] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.cpp\n'}
+[1.275141] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.cpp\n'}
+[1.275366] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.cpp\n'}
+[1.275616] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.cpp\n'}
+[1.275822] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.276037] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.276994] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.277790] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.cpp\n'}
+[1.278906] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.279265] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.279870] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.282818] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.cpp\n'}
+[1.283502] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.287152] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.cpp\n'}
+[1.287742] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.cpp\n'}
+[1.288027] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.288232] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.288466] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.288713] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.cpp\n'}
+[1.288959] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.289196] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.cpp\n'}
+[1.289466] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.cpp\n'}
+[1.289725] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.cpp\n'}
+[1.289880] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.cpp\n'}
+[1.290093] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.cpp\n'}
+[1.290346] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.290744] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.291021] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.cpp\n'}
+[1.291275] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.291518] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.cpp\n'}
+[1.291880] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.292138] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.cpp\n'}
+[1.292353] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.292550] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.cpp\n'}
+[1.292736] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.292994] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so\n'}
+[1.293178] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.sh\n'}
+[1.293363] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.dsv\n'}
+[1.293544] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info\n'}
+[1.293720] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/SOURCES.txt\n'}
+[1.293894] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/top_level.txt\n'}
+[1.294102] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/dependency_links.txt\n'}
+[1.294254] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.2.1-py3.10.egg-info/PKG-INFO\n'}
+[1.294442] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs\n'}
+[1.294766] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv\n'}
+[1.295039] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame.py\n'}
+[1.295205] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec_s.c\n'}
+[1.295418] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py\n'}
+[1.295602] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi_s.c\n'}
+[1.295780] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py\n'}
+[1.295953] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py\n'}
+[1.296127] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose_s.c\n'}
+[1.296313] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame_s.c\n'}
+[1.296486] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_save_area_memory_s.c\n'}
+[1.296692] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_save_area_memory.py\n'}
+[1.296863] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py\n'}
+[1.297040] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.297315] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.297537] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg\n'}
+[1.297727] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status_s.c\n'}
+[1.297916] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py\n'}
+[1.298108] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped_s.c\n'}
+[1.298269] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df_s.c\n'}
+[1.298469] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d_s.c\n'}
+[1.298643] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py\n'}
+[1.298800] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object_s.c\n'}
+[1.299018] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df_s.c\n'}
+[1.299214] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py\n'}
+[1.299416] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d_s.c\n'}
+[1.299632] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py\n'}
+[1.299825] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status_s.c\n'}
+[1.300020] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat_s.c\n'}
+[1.300205] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di_s.c\n'}
+[1.300393] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py\n'}
+[1.300543] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status_s.c\n'}
+[1.300714] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped_s.c\n'}
+[1.300905] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status.py\n'}
+[1.301077] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py\n'}
+[1.302111] (-) TimerEvent: {}
+[1.302377] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py\n'}
+[1.303212] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py\n'}
+[1.303427] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py\n'}
+[1.303672] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py\n'}
+[1.304146] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py\n'}
+[1.304617] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py\n'}
+[1.304857] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped_s.c\n'}
+[1.305062] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d_s.c\n'}
+[1.305513] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py\n'}
+[1.306104] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped_s.c\n'}
+[1.306321] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py\n'}
+[1.306534] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status_s.c\n'}
+[1.307092] (mavivatan_interfaces) CommandEnded: {'returncode': 0}
+[1.308029] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py\n'}
+[1.308338] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di_s.c\n'}
+[1.309177] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py\n'}
+[1.309758] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py\n'}
+[1.309998] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped.py\n'}
+[1.310428] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d_s.c\n'}
+[1.310921] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.311188] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/libzed_msgs__rosidl_generator_py.so\n'}
+[1.311398] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.311867] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py\n'}
+[1.312464] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.312708] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.313080] (zed_msgs) StdoutLine: {'line': b"Listing '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs'...\n"}
+[1.314031] (zed_msgs) StdoutLine: {'line': b"Listing '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg'...\n"}
+[1.315763] (zed_msgs) StdoutLine: {'line': b"Listing '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv'...\n"}
+[1.317016] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.317262] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.317485] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.317962] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so\n'}
+[1.318206] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/rust_packages/zed_msgs\n'}
+[1.318871] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust\n'}
+[1.319141] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/Cargo.toml\n'}
+[1.319604] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src\n'}
+[1.320242] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/srv\n'}
+[1.320458] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/srv/rmw.rs\n'}
+[1.320624] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/msg.rs\n'}
+[1.320979] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/lib.rs\n'}
+[1.321279] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/msg\n'}
+[1.321930] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/msg/rmw.rs\n'}
+[1.322528] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/src/srv.rs\n'}
+[1.322778] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/rust/build.rs\n'}
+[1.323412] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Object.idl\n'}
+[1.323665] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.idl\n'}
+[1.324182] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.idl\n'}
+[1.324497] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.idl\n'}
+[1.324930] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.idl\n'}
+[1.325209] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.idl\n'}
+[1.325595] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.idl\n'}
+[1.327320] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.idl\n'}
+[1.327992] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.idl\n'}
+[1.328312] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.idl\n'}
+[1.328544] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.idl\n'}
+[1.328859] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.idl\n'}
+[1.329146] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.idl\n'}
+[1.329425] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.idl\n'}
+[1.329740] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.idl\n'}
+[1.330045] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.idl\n'}
+[1.330293] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.idl\n'}
+[1.330580] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.idl\n'}
+[1.330862] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.idl\n'}
+[1.331189] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.idl\n'}
+[1.331475] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.idl\n'}
+[1.331780] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.idl\n'}
+[1.332214] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory.idl\n'}
+[1.332504] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Object.msg\n'}
+[1.332744] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.msg\n'}
+[1.332970] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.msg\n'}
+[1.333210] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.msg\n'}
+[1.333424] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.msg\n'}
+[1.333642] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.msg\n'}
+[1.333865] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.msg\n'}
+[1.334060] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.msg\n'}
+[1.334270] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.msg\n'}
+[1.334468] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.msg\n'}
+[1.334741] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.msg\n'}
+[1.334991] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.msg\n'}
+[1.335197] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.msg\n'}
+[1.335427] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.msg\n'}
+[1.335667] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.msg\n'}
+[1.335843] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.msg\n'}
+[1.336042] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.msg\n'}
+[1.336322] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.msg\n'}
+[1.336530] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.srv\n'}
+[1.336727] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Request.msg\n'}
+[1.336926] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Response.msg\n'}
+[1.337143] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.srv\n'}
+[1.337351] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Request.msg\n'}
+[1.337569] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Response.msg\n'}
+[1.337772] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.srv\n'}
+[1.338086] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Request.msg\n'}
+[1.338323] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Response.msg\n'}
+[1.338536] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.srv\n'}
+[1.338728] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Request.msg\n'}
+[1.338964] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Response.msg\n'}
+[1.339198] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory.srv\n'}
+[1.339422] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory_Request.msg\n'}
+[1.339640] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/srv/SaveAreaMemory_Response.msg\n'}
+[1.339850] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/package_run_dependencies/zed_msgs\n'}
+[1.340059] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/parent_prefix_path/zed_msgs\n'}
+[1.340286] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.sh\n'}
+[1.340519] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.dsv\n'}
+[1.340745] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/path.sh\n'}
+[1.340968] (mavivatan_interfaces) JobEnded: {'identifier': 'mavivatan_interfaces', 'rc': 0}
+[1.342780] (mavivatan_paket) JobStarted: {'identifier': 'mavivatan_paket'}
+[1.343018] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/environment/path.dsv\n'}
+[1.343861] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.bash\n'}
+[1.344764] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.sh\n'}
+[1.345336] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.zsh\n'}
+[1.345624] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/local_setup.dsv\n'}
+[1.346069] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.dsv\n'}
+[1.346423] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/ament_index/resource_index/packages/zed_msgs\n'}
+[1.347283] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport.cmake\n'}
+[1.347578] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport-release.cmake\n'}
+[1.348226] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.348680] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[1.348903] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.350020] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.350692] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[1.351018] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.351275] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[1.351823] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.352385] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[1.352646] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.353388] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[1.353819] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.354588] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[1.354841] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.355427] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[1.356553] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.358832] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.359141] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.360686] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.360943] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.361223] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.361813] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.362838] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig.cmake\n'}
+[1.363151] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig-version.cmake\n'}
+[1.363445] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.xml\n'}
+[1.364016] (zed_msgs) CommandEnded: {'returncode': 0}
+[1.368903] (zed_msgs) JobEnded: {'identifier': 'zed_msgs', 'rc': 0}
+[1.371786] (zed_components) JobStarted: {'identifier': 'zed_components'}
+[1.402336] (-) TimerEvent: {}
+[1.503041] (-) TimerEvent: {}
+[1.603713] (-) TimerEvent: {}
+[1.704483] (-) TimerEvent: {}
+[1.805287] (-) TimerEvent: {}
+[1.906068] (-) TimerEvent: {}
+[2.001676] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'cmake'}
+[2.003644] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'build'}
+[2.004535] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baris/mavivatan_ws/build/zed_components', '--', '-j6', '-l6'], 'cwd': '/home/baris/mavivatan_ws/build/zed_components', 'env': OrderedDict([('TERM_SESSION_ID', 'd1bf9d6d-99a1-42b5-95cb-1dcae24e765c'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'baris'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baris/mavivatan_ws/install/zed_msgs/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/baris'), ('OLDPWD', '/home/baris/mavivatan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('JETSON_L4T', '36.4.7'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/jetbrains-pycharm.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('MANAGERPID', '2799'), ('SYSTEMD_EXEC_PID', '2970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13511'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/baris/mavivatan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'baris'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1423925002363'), ('JOURNAL_STREAM', '8:45733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/baris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/baris/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2946,unix/ubuntu:/tmp/.ICE-unix/2946'), ('INVOCATION_ID', '5e0a2de511e146f7b68b1ab64b92cc5a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/PyCharm/2970-8-ubuntu_TIME1046740'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_paket:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/baris/mavivatan_ws/build/zed_components'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[2.010594] (-) TimerEvent: {}
+[2.111457] (-) TimerEvent: {}
+[2.131725] (zed_components) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_camera_one_component\x1b[0m\n'}
+[2.134388] (zed_components) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zed_camera_component\x1b[0m\n'}
+[2.211607] (-) TimerEvent: {}
+[2.237242] (zed_components) StdoutLine: {'line': b'[ 47%] Built target zed_camera_one_component\n'}
+[2.246206] (zed_components) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_objdet.cpp.o\x1b[0m\n'}
+[2.311801] (-) TimerEvent: {}
+[2.412615] (-) TimerEvent: {}
+[2.513418] (-) TimerEvent: {}
+[2.614209] (-) TimerEvent: {}
+[2.715034] (-) TimerEvent: {}
+[2.815856] (-) TimerEvent: {}
+[2.916671] (-) TimerEvent: {}
+[2.972910] (mavivatan_paket) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/mavivatan_paket', 'build', '--build-base', '/home/baris/mavivatan_ws/build/mavivatan_paket/build', 'install', '--record', '/home/baris/mavivatan_ws/build/mavivatan_paket/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket', 'env': {'TERM_SESSION_ID': 'd1bf9d6d-99a1-42b5-95cb-1dcae24e765c', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'baris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64', 'HOME': '/home/baris', 'OLDPWD': '/home/baris/mavivatan_ws', 'DESKTOP_SESSION': 'ubuntu', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'JETSON_L4T': '36.4.7', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/jetbrains-pycharm.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'MANAGERPID': '2799', 'SYSTEMD_EXEC_PID': '2970', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13511', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/baris/mavivatan_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'baris', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1423925002363', 'JOURNAL_STREAM': '8:45733', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'baris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/baris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/baris/.local/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2946,unix/ubuntu:/tmp/.ICE-unix/2946', 'INVOCATION_ID': '5e0a2de511e146f7b68b1ab64b92cc5a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'DESKTOP_STARTUP_ID': 'gnome-shell/PyCharm/2970-8-ubuntu_TIME1046740', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'FIG_TERM': '1', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_paket:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/baris/mavivatan_ws/build/mavivatan_paket', 'PROCESS_LAUNCHED_BY_CW': '1', 'INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED': '1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'JETSON_JETPACK': '', 'PROCESS_LAUNCHED_BY_Q': '1', 'CMAKE_PREFIX_PATH': '/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/zed_msgs', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[3.016783] (-) TimerEvent: {}
+[3.117449] (-) TimerEvent: {}
+[3.218272] (-) TimerEvent: {}
+[3.319112] (-) TimerEvent: {}
+[3.419933] (-) TimerEvent: {}
+[3.520761] (-) TimerEvent: {}
+[3.545935] (mavivatan_paket) StdoutLine: {'line': b'running egg_info\n'}
+[3.547672] (mavivatan_paket) StdoutLine: {'line': b'writing ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/PKG-INFO\n'}
+[3.551235] (mavivatan_paket) StdoutLine: {'line': b'writing dependency_links to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/dependency_links.txt\n'}
+[3.551846] (mavivatan_paket) StdoutLine: {'line': b'writing entry points to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/entry_points.txt\n'}
+[3.552360] (mavivatan_paket) StdoutLine: {'line': b'writing requirements to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/requires.txt\n'}
+[3.552730] (mavivatan_paket) StdoutLine: {'line': b'writing top-level names to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/top_level.txt\n'}
+[3.556988] (mavivatan_paket) StdoutLine: {'line': b"reading manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'\n"}
+[3.559494] (mavivatan_paket) StdoutLine: {'line': b"writing manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'\n"}
+[3.560091] (mavivatan_paket) StdoutLine: {'line': b'running build\n'}
+[3.560393] (mavivatan_paket) StdoutLine: {'line': b'running build_py\n'}
+[3.563435] (mavivatan_paket) StdoutLine: {'line': b'running install\n'}
+[3.564197] (mavivatan_paket) StdoutLine: {'line': b'running install_lib\n'}
+[3.572192] (mavivatan_paket) StdoutLine: {'line': b'running install_data\n'}
+[3.572816] (mavivatan_paket) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.576948] (mavivatan_paket) StdoutLine: {'line': b"removing '/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.577778] (mavivatan_paket) StdoutLine: {'line': b'Copying ../../../../build/mavivatan_paket/mavivatan_paket.egg-info to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket-0.0.0-py3.10.egg-info\n'}
+[3.580196] (mavivatan_paket) StdoutLine: {'line': b'running install_scripts\n'}
+[3.602288] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_objdet.cpp:6:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksl\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.602885] (zed_components) StderrLine: {'line': b'    6 | static \x1b[01;31m\x1b[Ksl\x1b[m\x1b[K::OBJECT_ACCELERATION_PRESET dummy_object_acceleration_preset = sl::OBJECT_ACCELERATION_PRESET::DEFAULT;\n'}
+[3.603214] (zed_components) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.620854] (-) TimerEvent: {}
+[3.630478] (mavivatan_paket) StdoutLine: {'line': b'Installing abone_dugumu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.631300] (mavivatan_paket) StdoutLine: {'line': b'Installing gorev_yoneticisi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.631771] (mavivatan_paket) StdoutLine: {'line': b'Installing gps_navigasyon script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.632263] (mavivatan_paket) StdoutLine: {'line': b'Installing ilk_dugum script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.632647] (mavivatan_paket) StdoutLine: {'line': b'Installing kanal_navigasyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.633271] (mavivatan_paket) StdoutLine: {'line': b'Installing mavlink_motor script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.633766] (mavivatan_paket) StdoutLine: {'line': b'Installing navigasyon_ve_karar script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.634571] (mavivatan_paket) StdoutLine: {'line': b'Installing sensor_fuzyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.634923] (mavivatan_paket) StdoutLine: {'line': b'Installing telemetri_merkezi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.635322] (mavivatan_paket) StdoutLine: {'line': b'Installing yolo_hedef_tespiti script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[3.635578] (mavivatan_paket) StdoutLine: {'line': b"writing list of installed files to '/home/baris/mavivatan_ws/build/mavivatan_paket/install.log'\n"}
+[3.714317] (mavivatan_paket) CommandEnded: {'returncode': 0}
+[3.721370] (-) TimerEvent: {}
+[3.733588] (mavivatan_paket) JobEnded: {'identifier': 'mavivatan_paket', 'rc': 0}
+[3.821616] (-) TimerEvent: {}
+[3.923152] (-) TimerEvent: {}
+[4.023998] (-) TimerEvent: {}
+[4.124893] (-) TimerEvent: {}
+[4.225781] (-) TimerEvent: {}
+[4.326659] (-) TimerEvent: {}
+[4.427544] (-) TimerEvent: {}
+[4.528398] (-) TimerEvent: {}
+[4.629233] (-) TimerEvent: {}
+[4.730074] (-) TimerEvent: {}
+[4.830969] (-) TimerEvent: {}
+[4.931810] (-) TimerEvent: {}
+[5.032666] (-) TimerEvent: {}
+[5.133523] (-) TimerEvent: {}
+[5.234416] (-) TimerEvent: {}
+[5.335281] (-) TimerEvent: {}
+[5.436142] (-) TimerEvent: {}
+[5.536990] (-) TimerEvent: {}
+[5.637805] (-) TimerEvent: {}
+[5.738594] (-) TimerEvent: {}
+[5.839509] (-) TimerEvent: {}
+[5.940299] (-) TimerEvent: {}
+[6.041001] (-) TimerEvent: {}
+[6.141834] (-) TimerEvent: {}
+[6.242630] (-) TimerEvent: {}
+[6.343452] (-) TimerEvent: {}
+[6.444249] (-) TimerEvent: {}
+[6.544974] (-) TimerEvent: {}
+[6.645836] (-) TimerEvent: {}
+[6.746630] (-) TimerEvent: {}
+[6.847476] (-) TimerEvent: {}
+[6.948231] (-) TimerEvent: {}
+[7.048932] (-) TimerEvent: {}
+[7.149783] (-) TimerEvent: {}
+[7.250658] (-) TimerEvent: {}
+[7.351557] (-) TimerEvent: {}
+[7.452432] (-) TimerEvent: {}
+[7.553302] (-) TimerEvent: {}
+[7.654158] (-) TimerEvent: {}
+[7.755038] (-) TimerEvent: {}
+[7.855886] (-) TimerEvent: {}
+[7.956736] (-) TimerEvent: {}
+[8.057607] (-) TimerEvent: {}
+[8.158459] (-) TimerEvent: {}
+[8.259341] (-) TimerEvent: {}
+[8.360187] (-) TimerEvent: {}
+[8.461042] (-) TimerEvent: {}
+[8.561893] (-) TimerEvent: {}
+[8.662718] (-) TimerEvent: {}
+[8.763676] (-) TimerEvent: {}
+[8.864480] (-) TimerEvent: {}
+[8.965250] (-) TimerEvent: {}
+[9.066107] (-) TimerEvent: {}
+[9.166896] (-) TimerEvent: {}
+[9.267648] (-) TimerEvent: {}
+[9.368393] (-) TimerEvent: {}
+[9.469171] (-) TimerEvent: {}
+[9.569980] (-) TimerEvent: {}
+[9.670832] (-) TimerEvent: {}
+[9.771662] (-) TimerEvent: {}
+[9.872498] (-) TimerEvent: {}
+[9.973372] (-) TimerEvent: {}
+[10.074219] (-) TimerEvent: {}
+[10.175107] (-) TimerEvent: {}
+[10.276583] (-) TimerEvent: {}
+[10.377444] (-) TimerEvent: {}
+[10.478526] (-) TimerEvent: {}
+[10.579483] (-) TimerEvent: {}
+[10.680448] (-) TimerEvent: {}
+[10.781632] (-) TimerEvent: {}
+[10.883232] (-) TimerEvent: {}
+[10.983994] (-) TimerEvent: {}
+[11.084705] (-) TimerEvent: {}
+[11.185438] (-) TimerEvent: {}
+[11.286164] (-) TimerEvent: {}
+[11.386935] (-) TimerEvent: {}
+[11.487672] (-) TimerEvent: {}
+[11.588390] (-) TimerEvent: {}
+[11.689112] (-) TimerEvent: {}
+[11.789889] (-) TimerEvent: {}
+[11.897670] (-) TimerEvent: {}
+[11.998426] (-) TimerEvent: {}
+[12.099191] (-) TimerEvent: {}
+[12.199927] (-) TimerEvent: {}
+[12.300682] (-) TimerEvent: {}
+[12.401469] (-) TimerEvent: {}
+[12.502221] (-) TimerEvent: {}
+[12.602955] (-) TimerEvent: {}
+[12.703660] (-) TimerEvent: {}
+[12.804352] (-) TimerEvent: {}
+[12.905051] (-) TimerEvent: {}
+[13.005732] (-) TimerEvent: {}
+[13.106421] (-) TimerEvent: {}
+[13.207131] (-) TimerEvent: {}
+[13.307828] (-) TimerEvent: {}
+[13.408556] (-) TimerEvent: {}
+[13.509317] (-) TimerEvent: {}
+[13.610078] (-) TimerEvent: {}
+[13.711147] (-) TimerEvent: {}
+[13.781552] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_objdet.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid stereolabs::ZedCamera::getCustomOdParams()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.782092] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_objdet.cpp:343:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdummy_object_acceleration_preset\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.782319] (zed_components) StderrLine: {'line': b'  343 |       \x1b[01;31m\x1b[Kdummy_object_acceleration_preset\x1b[m\x1b[K,\n'}
+[13.782488] (zed_components) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.811319] (-) TimerEvent: {}
+[13.912034] (-) TimerEvent: {}
+[14.012765] (-) TimerEvent: {}
+[14.113499] (-) TimerEvent: {}
+[14.214223] (-) TimerEvent: {}
+[14.314986] (-) TimerEvent: {}
+[14.415836] (-) TimerEvent: {}
+[14.516539] (-) TimerEvent: {}
+[14.617262] (-) TimerEvent: {}
+[14.718019] (-) TimerEvent: {}
+[14.818752] (-) TimerEvent: {}
+[14.919579] (-) TimerEvent: {}
+[15.020510] (-) TimerEvent: {}
+[15.121228] (-) TimerEvent: {}
+[15.221955] (-) TimerEvent: {}
+[15.323303] (-) TimerEvent: {}
+[15.426459] (-) TimerEvent: {}
+[15.527870] (-) TimerEvent: {}
+[15.628626] (-) TimerEvent: {}
+[15.729340] (-) TimerEvent: {}
+[15.830057] (-) TimerEvent: {}
+[15.930791] (-) TimerEvent: {}
+[16.031571] (-) TimerEvent: {}
+[16.132295] (-) TimerEvent: {}
+[16.233039] (-) TimerEvent: {}
+[16.333763] (-) TimerEvent: {}
+[16.434475] (-) TimerEvent: {}
+[16.535252] (-) TimerEvent: {}
+[16.635997] (-) TimerEvent: {}
+[16.736754] (-) TimerEvent: {}
+[16.837467] (-) TimerEvent: {}
+[16.938205] (-) TimerEvent: {}
+[17.038974] (-) TimerEvent: {}
+[17.139697] (-) TimerEvent: {}
+[17.240418] (-) TimerEvent: {}
+[17.341304] (-) TimerEvent: {}
+[17.442011] (-) TimerEvent: {}
+[17.542731] (-) TimerEvent: {}
+[17.643486] (-) TimerEvent: {}
+[17.744463] (-) TimerEvent: {}
+[17.845162] (-) TimerEvent: {}
+[17.945888] (-) TimerEvent: {}
+[18.046609] (-) TimerEvent: {}
+[18.147364] (-) TimerEvent: {}
+[18.248106] (-) TimerEvent: {}
+[18.348838] (-) TimerEvent: {}
+[18.449577] (-) TimerEvent: {}
+[18.550321] (-) TimerEvent: {}
+[18.652480] (-) TimerEvent: {}
+[18.753418] (-) TimerEvent: {}
+[18.854665] (-) TimerEvent: {}
+[18.955741] (-) TimerEvent: {}
+[19.056541] (-) TimerEvent: {}
+[19.157268] (-) TimerEvent: {}
+[19.257972] (-) TimerEvent: {}
+[19.358675] (-) TimerEvent: {}
+[19.459411] (-) TimerEvent: {}
+[19.560113] (-) TimerEvent: {}
+[19.660913] (-) TimerEvent: {}
+[19.761649] (-) TimerEvent: {}
+[19.862656] (-) TimerEvent: {}
+[19.907327] (zed_components) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:160: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_objdet.cpp.o] Error 1\n'}
+[19.908027] (zed_components) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/zed_camera_component.dir/all] Error 2\n'}
+[19.908990] (zed_components) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.915857] (zed_components) CommandEnded: {'returncode': 2}
+[19.936058] (zed_components) JobEnded: {'identifier': 'zed_components', 'rc': 2}
+[19.948156] (zed_debug) JobSkipped: {'identifier': 'zed_debug'}
+[19.948358] (zed_wrapper) JobSkipped: {'identifier': 'zed_wrapper'}
+[19.948450] (zed_ros2) JobSkipped: {'identifier': 'zed_ros2'}
+[19.948527] (-) EventReactorShutdown: {}

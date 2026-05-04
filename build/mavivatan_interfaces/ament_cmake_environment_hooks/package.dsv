@@ -1,0 +1,4 @@
+source;share/mavivatan_interfaces/local_setup.bash
+source;share/mavivatan_interfaces/local_setup.dsv
+source;share/mavivatan_interfaces/local_setup.sh
+source;share/mavivatan_interfaces/local_setup.zsh

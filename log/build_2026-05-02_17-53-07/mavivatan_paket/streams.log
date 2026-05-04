@@ -1,0 +1,34 @@
+[1.202s] Invoking command in '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket': AMENT_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mavivatan_paket build --build-base /home/baris/mavivatan_ws/build/mavivatan_paket/build install --record /home/baris/mavivatan_ws/build/mavivatan_paket/install.log --single-version-externally-managed install_data
+[1.597s] running egg_info
+[1.598s] writing ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/PKG-INFO
+[1.599s] writing dependency_links to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/dependency_links.txt
+[1.599s] writing entry points to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/entry_points.txt
+[1.600s] writing requirements to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/requires.txt
+[1.600s] writing top-level names to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/top_level.txt
+[1.603s] reading manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'
+[1.605s] writing manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'
+[1.605s] running build
+[1.606s] running build_py
+[1.607s] copying mavivatan_paket/yolo_hedef_tespiti.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+[1.608s] running install
+[1.611s] running install_lib
+[1.612s] copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/yolo_hedef_tespiti.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+[1.614s] byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/yolo_hedef_tespiti.py to yolo_hedef_tespiti.cpython-310.pyc
+[1.618s] running install_data
+[1.618s] running install_egg_info
+[1.622s] removing '/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket-0.0.0-py3.10.egg-info' (and everything under it)
+[1.622s] Copying ../../../../build/mavivatan_paket/mavivatan_paket.egg-info to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket-0.0.0-py3.10.egg-info
+[1.624s] running install_scripts
+[1.671s] Installing abone_dugumu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.672s] Installing gorev_yoneticisi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.672s] Installing gps_navigasyon script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.672s] Installing ilk_dugum script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.672s] Installing kanal_navigasyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.672s] Installing mavivatan_yars_ui script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.672s] Installing mavlink_motor script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.673s] Installing navigasyon_ve_karar script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.673s] Installing sensor_fuzyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.673s] Installing telemetri_merkezi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.673s] Installing yolo_hedef_tespiti script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[1.675s] writing list of installed files to '/home/baris/mavivatan_ws/build/mavivatan_paket/install.log'
+[1.763s] Invoked command in '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket' returned '0': AMENT_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mavivatan_paket build --build-base /home/baris/mavivatan_ws/build/mavivatan_paket/build install --record /home/baris/mavivatan_ws/build/mavivatan_paket/install.log --single-version-externally-managed install_data

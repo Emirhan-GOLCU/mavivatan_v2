@@ -1,0 +1,82 @@
+running egg_info
+creating ../../../../build/mavivatan_paket/mavivatan_paket.egg-info
+writing ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/dependency_links.txt
+writing entry points to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/entry_points.txt
+writing requirements to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/requires.txt
+writing top-level names to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/top_level.txt
+writing manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/baris/mavivatan_ws/build/mavivatan_paket/build
+creating /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib
+creating /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/engel_kacinma.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/mavlink_motor.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/abone_dugumu.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/kanal_navigasyonu.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/navigasyon_ve_karar.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/sensor_fuzyonu.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/telemetri_merkezi.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/mavivatan_yars_ui.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/yolo_hedef_tespiti.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/gorev_yoneticisi.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/gps_navigasyon.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/ilk_dugum.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/yki_merkez.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+copying mavivatan_paket/__init__.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket
+running install
+running install_lib
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/engel_kacinma.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/mavlink_motor.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/abone_dugumu.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/kanal_navigasyonu.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/navigasyon_ve_karar.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/sensor_fuzyonu.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/telemetri_merkezi.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/mavivatan_yars_ui.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/yolo_hedef_tespiti.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/gorev_yoneticisi.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/gps_navigasyon.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/ilk_dugum.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/yki_merkez.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/__init__.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/engel_kacinma.py to engel_kacinma.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/mavlink_motor.py to mavlink_motor.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/abone_dugumu.py to abone_dugumu.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/kanal_navigasyonu.py to kanal_navigasyonu.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/navigasyon_ve_karar.py to navigasyon_ve_karar.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/sensor_fuzyonu.py to sensor_fuzyonu.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/telemetri_merkezi.py to telemetri_merkezi.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/mavivatan_yars_ui.py to mavivatan_yars_ui.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/yolo_hedef_tespiti.py to yolo_hedef_tespiti.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/gorev_yoneticisi.py to gorev_yoneticisi.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/gps_navigasyon.py to gps_navigasyon.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/ilk_dugum.py to ilk_dugum.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/yki_merkez.py to yki_merkez.cpython-310.pyc
+byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index/packages
+copying resource/mavivatan_paket -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index/packages
+copying package.xml -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch
+copying launch/sensorleri_baslat.launch.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch
+running install_egg_info
+Copying ../../../../build/mavivatan_paket/mavivatan_paket.egg-info to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket-0.0.0-py3.10.egg-info
+running install_scripts
+Installing abone_dugumu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing gorev_yoneticisi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing gps_navigasyon script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing ilk_dugum script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing kanal_navigasyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing mavlink_motor script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing navigasyon_ve_karar script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing sensor_fuzyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing telemetri_merkezi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing yolo_hedef_tespiti script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+writing list of installed files to '/home/baris/mavivatan_ws/build/mavivatan_paket/install.log'

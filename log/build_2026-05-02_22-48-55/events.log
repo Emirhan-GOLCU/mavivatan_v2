@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000607] (-) JobUnselected: {'identifier': 'mavivatan_interfaces'}
+[0.000867] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000966] (-) JobUnselected: {'identifier': 'zed_debug'}
+[0.001039] (-) JobUnselected: {'identifier': 'zed_msgs'}
+[0.001098] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.001529] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.001637] (mavivatan_paket) JobQueued: {'identifier': 'mavivatan_paket', 'dependencies': OrderedDict([('mavivatan_interfaces', '/home/baris/mavivatan_ws/install/mavivatan_interfaces')])}
+[0.001825] (mavivatan_paket) JobStarted: {'identifier': 'mavivatan_paket'}
+[0.098140] (-) TimerEvent: {}
+[0.198708] (-) TimerEvent: {}
+[0.299326] (-) TimerEvent: {}
+[0.399948] (-) TimerEvent: {}
+[0.500577] (-) TimerEvent: {}
+[0.601200] (-) TimerEvent: {}
+[0.701852] (-) TimerEvent: {}
+[0.802440] (-) TimerEvent: {}
+[0.903050] (-) TimerEvent: {}
+[1.003677] (-) TimerEvent: {}
+[1.104302] (-) TimerEvent: {}
+[1.204940] (-) TimerEvent: {}
+[1.305546] (-) TimerEvent: {}
+[1.406153] (-) TimerEvent: {}
+[1.506825] (-) TimerEvent: {}
+[1.573988] (mavivatan_paket) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/mavivatan_paket', 'build', '--build-base', '/home/baris/mavivatan_ws/build/mavivatan_paket/build', 'install', '--record', '/home/baris/mavivatan_ws/build/mavivatan_paket/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket', 'env': {'TERM_SESSION_ID': 'ea13a191-d152-4300-a32f-4f12326dcc3e', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'baris', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64', 'HOME': '/home/baris', 'OLDPWD': '/home/baris/mavivatan_ws', 'DESKTOP_SESSION': 'ubuntu', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'JETSON_L4T': '36.4.7', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/jetbrains-pycharm.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'MANAGERPID': '2275', 'SYSTEMD_EXEC_PID': '2446', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11420', 'TORCH_CUDA_ARCH_LIST': '8.7', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/baris/mavivatan_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'baris', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1423925002363', 'JOURNAL_STREAM': '8:44451', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'baris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/baris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/baris/.local/bin:/home/baris/.local/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2422,unix/ubuntu:/tmp/.ICE-unix/2422', 'INVOCATION_ID': 'a85d9e2848204c0eaf2735ea101f449f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'DESKTOP_STARTUP_ID': 'gnome-shell/PyCharm/2446-2-ubuntu_TIME4861170', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'FIG_TERM': '1', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/mavivatan_paket:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/baris/mavivatan_ws/build/mavivatan_paket', 'PROCESS_LAUNCHED_BY_CW': '1', 'INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED': '1', 'CUDA_HOME': '/usr/local/cuda', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FORCE_CUDA': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:/home/baris/mavivatan_ws/install/mavivatan_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/baris/.local/lib/python3.10/site-packages', 'COLCON': '1', 'JETSON_JETPACK': '', 'PROCESS_LAUNCHED_BY_Q': '1', 'CMAKE_PREFIX_PATH': '/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[1.606936] (-) TimerEvent: {}
+[1.707505] (-) TimerEvent: {}
+[1.808142] (-) TimerEvent: {}
+[1.908746] (-) TimerEvent: {}
+[2.009362] (-) TimerEvent: {}
+[2.109981] (-) TimerEvent: {}
+[2.202019] (mavivatan_paket) StdoutLine: {'line': b'running egg_info\n'}
+[2.203847] (mavivatan_paket) StdoutLine: {'line': b'writing ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/PKG-INFO\n'}
+[2.204457] (mavivatan_paket) StdoutLine: {'line': b'writing dependency_links to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/dependency_links.txt\n'}
+[2.205050] (mavivatan_paket) StdoutLine: {'line': b'writing entry points to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/entry_points.txt\n'}
+[2.205335] (mavivatan_paket) StdoutLine: {'line': b'writing requirements to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/requires.txt\n'}
+[2.205581] (mavivatan_paket) StdoutLine: {'line': b'writing top-level names to ../../../../build/mavivatan_paket/mavivatan_paket.egg-info/top_level.txt\n'}
+[2.210065] (-) TimerEvent: {}
+[2.210467] (mavivatan_paket) StdoutLine: {'line': b"reading manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'\n"}
+[2.212789] (mavivatan_paket) StdoutLine: {'line': b"writing manifest file '../../../../build/mavivatan_paket/mavivatan_paket.egg-info/SOURCES.txt'\n"}
+[2.213145] (mavivatan_paket) StdoutLine: {'line': b'running build\n'}
+[2.213340] (mavivatan_paket) StdoutLine: {'line': b'running build_py\n'}
+[2.214314] (mavivatan_paket) StdoutLine: {'line': b'copying mavivatan_paket/yolo_hedef_tespiti.py -> /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket\n'}
+[2.215657] (mavivatan_paket) StdoutLine: {'line': b'running install\n'}
+[2.216386] (mavivatan_paket) StdoutLine: {'line': b'running install_lib\n'}
+[2.221666] (mavivatan_paket) StdoutLine: {'line': b'copying /home/baris/mavivatan_ws/build/mavivatan_paket/build/lib/mavivatan_paket/yolo_hedef_tespiti.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket\n'}
+[2.224059] (mavivatan_paket) StdoutLine: {'line': b'byte-compiling /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket/yolo_hedef_tespiti.py to yolo_hedef_tespiti.cpython-310.pyc\n'}
+[2.227894] (mavivatan_paket) StdoutLine: {'line': b'running install_data\n'}
+[2.228484] (mavivatan_paket) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.233892] (mavivatan_paket) StdoutLine: {'line': b"removing '/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.234699] (mavivatan_paket) StdoutLine: {'line': b'Copying ../../../../build/mavivatan_paket/mavivatan_paket.egg-info to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan_paket-0.0.0-py3.10.egg-info\n'}
+[2.237314] (mavivatan_paket) StdoutLine: {'line': b'running install_scripts\n'}
+[2.310257] (-) TimerEvent: {}
+[2.316668] (mavivatan_paket) StdoutLine: {'line': b'Installing abone_dugumu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.317278] (mavivatan_paket) StdoutLine: {'line': b'Installing gorev_yoneticisi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.317842] (mavivatan_paket) StdoutLine: {'line': b'Installing gps_navigasyon script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.318179] (mavivatan_paket) StdoutLine: {'line': b'Installing ilk_dugum script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.318738] (mavivatan_paket) StdoutLine: {'line': b'Installing kanal_navigasyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.319034] (mavivatan_paket) StdoutLine: {'line': b'Installing mavivatan_yars_ui script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.320141] (mavivatan_paket) StdoutLine: {'line': b'Installing mavlink_motor script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.320442] (mavivatan_paket) StdoutLine: {'line': b'Installing navigasyon_ve_karar script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.320622] (mavivatan_paket) StdoutLine: {'line': b'Installing sensor_fuzyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.320804] (mavivatan_paket) StdoutLine: {'line': b'Installing telemetri_merkezi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.320955] (mavivatan_paket) StdoutLine: {'line': b'Installing yolo_hedef_tespiti script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket\n'}
+[2.322875] (mavivatan_paket) StdoutLine: {'line': b"writing list of installed files to '/home/baris/mavivatan_ws/build/mavivatan_paket/install.log'\n"}
+[2.403497] (mavivatan_paket) CommandEnded: {'returncode': 0}
+[2.410718] (-) TimerEvent: {}
+[2.432908] (mavivatan_paket) JobEnded: {'identifier': 'mavivatan_paket', 'rc': 0}
+[2.435140] (-) EventReactorShutdown: {}
