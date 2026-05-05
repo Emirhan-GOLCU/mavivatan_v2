@@ -1,8 +1,1 @@
-setup.py
-mavivatan_interfaces/__init__.py
-mavivatan_interfaces.egg-info/PKG-INFO
-mavivatan_interfaces.egg-info/SOURCES.txt
-mavivatan_interfaces.egg-info/dependency_links.txt
-mavivatan_interfaces.egg-info/top_level.txt
-mavivatan_interfaces/msg/__init__.py
-mavivatan_interfaces/msg/_ida_durum.py
+/home/baris/mavivatan_ws/build/mavivatan_interfaces/ament_cmake_python/mavivatan_interfaces/mavivatan_interfaces.egg-info/SOURCES.txt

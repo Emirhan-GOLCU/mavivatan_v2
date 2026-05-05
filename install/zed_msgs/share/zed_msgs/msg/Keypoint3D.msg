@@ -1,1 +1,1 @@
-float32[3] kp
+/home/baris/mavivatan_ws/src/zed-ros2-interfaces/msg/Keypoint3D.msg

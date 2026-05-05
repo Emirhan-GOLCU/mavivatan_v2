@@ -1,1 +1,1 @@
-mavivatan_interfaces
+/home/baris/mavivatan_ws/build/mavivatan_interfaces/ament_cmake_python/mavivatan_interfaces/mavivatan_interfaces.egg-info/top_level.txt

@@ -1,4 +1,1 @@
-# Save the current area memory to a file
-
-# Path of an area localization file that describes the surroundings. Use ".area" extension.
-string area_file_path
+/home/baris/mavivatan_ws/build/zed_msgs/rosidl_cmake/srv/SaveAreaMemory_Request.msg

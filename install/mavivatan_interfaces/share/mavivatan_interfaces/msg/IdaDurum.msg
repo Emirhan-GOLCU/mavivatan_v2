@@ -1,3 +1,1 @@
-float64 hiz
-float64 batarya
-string mod
+/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces/msg/IdaDurum.msg

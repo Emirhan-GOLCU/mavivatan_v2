@@ -1,1 +1,1 @@
-
+/home/baris/mavivatan_ws/build/mavivatan_interfaces/ament_cmake_python/mavivatan_interfaces/mavivatan_interfaces.egg-info/dependency_links.txt

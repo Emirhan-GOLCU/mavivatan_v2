@@ -666,14 +666,14 @@ CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_tools.cpp.o: \
  /usr/local/zed/include/sl/Camera.hpp /usr/include/c++/11/fstream \
  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc /usr/local/cuda-12.6/include/cuda.h \
- /usr/local/cuda-12.6/include/cuda_runtime.h \
- /usr/local/cuda-12.6/include/crt/host_config.h \
- /usr/local/cuda-12.6/include/builtin_types.h \
- /usr/local/cuda-12.6/include/device_types.h \
- /usr/local/cuda-12.6/include/crt/host_defines.h \
- /usr/local/cuda-12.6/include/driver_types.h \
- /usr/local/cuda-12.6/include/vector_types.h \
+ /usr/include/c++/11/bits/fstream.tcc /usr/local/cuda/include/cuda.h \
+ /usr/local/cuda/include/cuda_runtime.h \
+ /usr/local/cuda/include/crt/host_config.h \
+ /usr/local/cuda/include/builtin_types.h \
+ /usr/local/cuda/include/device_types.h \
+ /usr/local/cuda/include/crt/host_defines.h \
+ /usr/local/cuda/include/driver_types.h \
+ /usr/local/cuda/include/vector_types.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
@@ -682,17 +682,17 @@ CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_tools.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
  /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
- /usr/local/cuda-12.6/include/surface_types.h \
- /usr/local/cuda-12.6/include/texture_types.h \
- /usr/local/cuda-12.6/include/library_types.h \
- /usr/local/cuda-12.6/include/channel_descriptor.h \
- /usr/local/cuda-12.6/include/cuda_runtime_api.h \
- /usr/local/cuda-12.6/include/cuda_device_runtime_api.h \
- /usr/local/cuda-12.6/include/driver_functions.h \
- /usr/local/cuda-12.6/include/vector_functions.h \
- /usr/local/cuda-12.6/include/vector_functions.hpp \
- /usr/local/cuda-12.6/include/cuda_runtime_api.h \
- /usr/local/cuda-12.6/include/device_launch_parameters.h \
+ /usr/local/cuda/include/surface_types.h \
+ /usr/local/cuda/include/texture_types.h \
+ /usr/local/cuda/include/library_types.h \
+ /usr/local/cuda/include/channel_descriptor.h \
+ /usr/local/cuda/include/cuda_runtime_api.h \
+ /usr/local/cuda/include/cuda_device_runtime_api.h \
+ /usr/local/cuda/include/driver_functions.h \
+ /usr/local/cuda/include/vector_functions.h \
+ /usr/local/cuda/include/vector_functions.hpp \
+ /usr/local/cuda/include/cuda_runtime_api.h \
+ /usr/local/cuda/include/device_launch_parameters.h \
  /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/tools/include/gnss_replay.hpp \
  /usr/include/nlohmann/json.hpp /usr/include/c++/11/cstddef \
  /usr/include/nlohmann/adl_serializer.hpp \

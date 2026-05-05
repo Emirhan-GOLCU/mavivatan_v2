@@ -1,4 +1,0 @@
-Invoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_msgs -- -j6 -l6
-Invoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_msgs -- -j6 -l6
-Invoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_msgs
-Invoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_msgs

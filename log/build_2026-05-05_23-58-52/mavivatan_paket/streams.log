@@ -1,0 +1,39 @@
+[5.056s] Invoking command in '/home/baris/mavivatan_ws/build/mavivatan_paket': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baris/mavivatan_ws/build/mavivatan_paket/build --no-deps symlink_data
+[5.854s] running develop
+[6.712s] running egg_info
+[6.713s] creating mavivatan_paket.egg-info
+[6.714s] writing mavivatan_paket.egg-info/PKG-INFO
+[6.716s] writing dependency_links to mavivatan_paket.egg-info/dependency_links.txt
+[6.717s] writing entry points to mavivatan_paket.egg-info/entry_points.txt
+[6.722s] writing requirements to mavivatan_paket.egg-info/requires.txt
+[6.723s] writing top-level names to mavivatan_paket.egg-info/top_level.txt
+[6.724s] writing manifest file 'mavivatan_paket.egg-info/SOURCES.txt'
+[6.732s] reading manifest file 'mavivatan_paket.egg-info/SOURCES.txt'
+[6.735s] writing manifest file 'mavivatan_paket.egg-info/SOURCES.txt'
+[6.974s] running build_ext
+[6.978s] Creating /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan-paket.egg-link (link to .)
+[6.983s] Installing abone_dugumu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.984s] Installing gorev_yoneticisi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.985s] Installing gps_navigasyon script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.986s] Installing ilk_dugum script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.987s] Installing kanal_navigasyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.988s] Installing mavivatan_yars_ui script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.990s] Installing mavlink_motor script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.991s] Installing navigasyon_ve_karar script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.992s] Installing sensor_fuzyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.992s] Installing telemetri_merkezi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[6.993s] Installing yolo_hedef_tespiti script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+[7.003s] 
+[7.003s] Installed /home/baris/mavivatan_ws/build/mavivatan_paket
+[7.004s] running symlink_data
+[7.005s] creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index
+[7.006s] creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index
+[7.007s] creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index/packages
+[7.008s] symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/resource/mavivatan_paket -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index/packages
+[7.008s] symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/package.xml -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket
+[7.009s] creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/config
+[7.021s] symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/config/ekf_ayarlari.yaml -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/config
+[7.022s] creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch
+[7.023s] symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/launch/sensorleri_baslat.launch.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch
+[7.024s] symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/launch/otonom_operasyon.launch.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch
+[7.235s] Invoked command in '/home/baris/mavivatan_ws/build/mavivatan_paket' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baris/mavivatan_ws/build/mavivatan_paket/build --no-deps symlink_data

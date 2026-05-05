@@ -6,5 +6,5 @@ CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_CPP_BUILDING
 
 CXX_INCLUDES = -I/home/baris/mavivatan_ws/build/mavivatan_interfaces/rosidl_generator_cpp -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c
 
-CXX_FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++14
+CXX_FLAGS = -fPIC -Wall -Wextra -Wpedantic -std=gnu++14
 

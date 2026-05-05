@@ -1,3 +1,1 @@
-
-bool success
-string message
+/home/baris/mavivatan_ws/build/zed_msgs/rosidl_cmake/srv/SetSvoFrame_Response.msg

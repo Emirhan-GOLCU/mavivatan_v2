@@ -1,0 +1,1 @@
+Donanım tarafında lehimli olan ve değiştiremeyeceğin Pin 33'ü kodda atıl bırakmamalıyız. gorev_yoneticisi.py dosyasına import Jetson.GPIO as GPIO ekleyip sistem (veya motorlar) "ARM" edildiğinde bu pini HIGH seviyesine çekerek donanımı tetikleyecek o kritik entegrasyonu kurmamız gerekiyor.

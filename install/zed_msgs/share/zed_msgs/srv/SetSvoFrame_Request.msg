@@ -1,4 +1,1 @@
-# Set SVO frame 
-
-# Frame ID
-int32 frame_id
+/home/baris/mavivatan_ws/build/zed_msgs/rosidl_cmake/srv/SetSvoFrame_Request.msg

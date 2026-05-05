@@ -1,0 +1,37 @@
+running develop
+running egg_info
+creating mavivatan_paket.egg-info
+writing mavivatan_paket.egg-info/PKG-INFO
+writing dependency_links to mavivatan_paket.egg-info/dependency_links.txt
+writing entry points to mavivatan_paket.egg-info/entry_points.txt
+writing requirements to mavivatan_paket.egg-info/requires.txt
+writing top-level names to mavivatan_paket.egg-info/top_level.txt
+writing manifest file 'mavivatan_paket.egg-info/SOURCES.txt'
+reading manifest file 'mavivatan_paket.egg-info/SOURCES.txt'
+writing manifest file 'mavivatan_paket.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages/mavivatan-paket.egg-link (link to .)
+Installing abone_dugumu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing gorev_yoneticisi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing gps_navigasyon script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing ilk_dugum script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing kanal_navigasyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing mavivatan_yars_ui script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing mavlink_motor script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing navigasyon_ve_karar script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing sensor_fuzyonu script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing telemetri_merkezi script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+Installing yolo_hedef_tespiti script to /home/baris/mavivatan_ws/install/mavivatan_paket/lib/mavivatan_paket
+
+Installed /home/baris/mavivatan_ws/build/mavivatan_paket
+running symlink_data
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index/packages
+symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/resource/mavivatan_paket -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/ament_index/resource_index/packages
+symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/package.xml -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/config
+symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/config/ekf_ayarlari.yaml -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/config
+creating /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch
+symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/launch/sensorleri_baslat.launch.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch
+symbolically linking /home/baris/mavivatan_ws/build/mavivatan_paket/launch/otonom_operasyon.launch.py -> /home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/launch

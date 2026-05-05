@@ -207,7 +207,7 @@ libzed_camera_component.so: CMakeFiles/zed_camera_component.dir/build.make
 libzed_camera_component.so: /usr/local/zed/lib/libsl_zed.so
 libzed_camera_component.so: /usr/lib/aarch64-linux-gnu/libopenblas.so
 libzed_camera_component.so: /usr/lib/aarch64-linux-gnu/libusb-1.0.so
-libzed_camera_component.so: /usr/local/cuda-12.6/lib64/libcudart.so
+libzed_camera_component.so: /usr/local/cuda/lib64/libcudart.so
 libzed_camera_component.so: /opt/ros/humble/lib/libcomponent_manager.so
 libzed_camera_component.so: /opt/ros/humble/lib/aarch64-linux-gnu/libimage_transport.so
 libzed_camera_component.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so

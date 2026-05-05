@@ -48,17 +48,13 @@ CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/aarch64-linux-gnu/bits/select2.h \
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
- /usr/include/alloca.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib.h \
+ /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
  /home/baris/mavivatan_ws/build/zed_msgs/rosidl_generator_c/zed_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/baris/mavivatan_ws/build/zed_msgs/rosidl_generator_c/zed_msgs/msg/detail/bounding_box2_di__struct.h \
  /home/baris/mavivatan_ws/build/zed_msgs/rosidl_generator_c/zed_msgs/msg/detail/keypoint2_di__struct.h \

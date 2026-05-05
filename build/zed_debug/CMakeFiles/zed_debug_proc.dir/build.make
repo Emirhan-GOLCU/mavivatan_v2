@@ -92,7 +92,7 @@ zed_debug_proc_EXTERNAL_OBJECTS =
 
 zed_debug_proc: CMakeFiles/zed_debug_proc.dir/src/zed_debug_proc.cpp.o
 zed_debug_proc: CMakeFiles/zed_debug_proc.dir/build.make
-zed_debug_proc: /usr/local/cuda-12.6/lib64/libcudart.so
+zed_debug_proc: /usr/local/cuda/lib64/libcudart.so
 zed_debug_proc: /opt/ros/humble/lib/libcomponent_manager.so
 zed_debug_proc: /home/baris/mavivatan_ws/install/zed_components/lib/libzed_camera_component.so
 zed_debug_proc: /home/baris/mavivatan_ws/install/zed_components/lib/libzed_camera_one_component.so

@@ -1,17 +1,1 @@
-<?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<package format="3">
-  <name>mavivatan_interfaces</name>
-  <version>0.0.0</version>
-  <description>Mavi Vatan Ozel Mesaj Tipleri</description>
-  <maintainer email="yarkin@todo.todo">yarkin</maintainer>
-  <license>TODO: License declaration</license>
-  
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  <depend>rosidl_default_generators</depend>
-  <member_of_group>rosidl_interface_packages</member_of_group>
-  
-  <export>
-    <build_type>ament_cmake</build_type>
-  </export>
-</package>
+/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces/package.xml

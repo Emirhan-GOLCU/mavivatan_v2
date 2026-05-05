@@ -1,2 +1,1 @@
-# Skeleton joints
-zed_msgs/Keypoint2Df[70] keypoints
+/home/baris/mavivatan_ws/src/zed-ros2-interfaces/msg/Skeleton2D.msg

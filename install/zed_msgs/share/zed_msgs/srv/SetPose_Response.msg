@@ -1,3 +1,1 @@
-
-bool success   # indicate successful run of service
-string message # informational, e.g. for error messages
+/home/baris/mavivatan_ws/build/zed_msgs/rosidl_cmake/srv/SetPose_Response.msg

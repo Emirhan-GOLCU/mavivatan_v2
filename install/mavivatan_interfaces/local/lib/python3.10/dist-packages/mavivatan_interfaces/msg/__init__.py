@@ -1,1 +1,1 @@
-from mavivatan_interfaces.msg._ida_durum import IdaDurum  # noqa: F401
+/home/baris/mavivatan_ws/build/mavivatan_interfaces/rosidl_generator_py/mavivatan_interfaces/msg/__init__.py

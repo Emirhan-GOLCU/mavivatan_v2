@@ -1,6 +1,1 @@
-#      0 ------- 1
-#      |         |
-#      |         |
-#      |         |
-#      3 ------- 2
-zed_msgs/Keypoint2Di[4] corners
+/home/baris/mavivatan_ws/src/zed-ros2-interfaces/msg/BoundingBox2Di.msg

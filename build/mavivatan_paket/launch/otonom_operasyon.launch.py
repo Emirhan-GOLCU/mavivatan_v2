@@ -1,0 +1,1 @@
+/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket/launch/otonom_operasyon.launch.py

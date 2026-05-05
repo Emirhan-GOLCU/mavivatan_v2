@@ -1,5 +1,1 @@
-# Standard Header
-std_msgs/Header header
-
-# Array of `object_stamped` topics
-zed_msgs/Object[] objects
+/home/baris/mavivatan_ws/src/zed-ros2-interfaces/msg/ObjectsStamped.msg

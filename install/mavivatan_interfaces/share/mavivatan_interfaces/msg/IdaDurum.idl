@@ -1,16 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from mavivatan_interfaces/msg/IdaDurum.msg
-// generated code does not contain a copyright notice
-
-
-module mavivatan_interfaces {
-  module msg {
-    struct IdaDurum {
-      double hiz;
-
-      double batarya;
-
-      string mod;
-    };
-  };
-};
+/home/baris/mavivatan_ws/build/mavivatan_interfaces/rosidl_adapter/mavivatan_interfaces/msg/IdaDurum.idl

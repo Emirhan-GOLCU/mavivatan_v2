@@ -1,0 +1,644 @@
+[0.286s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.286s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbba23310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbbdebac0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbbdebac0>>)[0m
+[0.717s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.718s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.718s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.718s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.718s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.718s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.718s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/baris/mavivatan_ws'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.719s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.720s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.720s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.746s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'ignore'
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'ignore_ament_install'
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extensions ['colcon_pkg']
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'colcon_pkg'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extensions ['colcon_meta']
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'colcon_meta'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extensions ['ros']
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'ros'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extensions ['cmake', 'python']
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'cmake'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'python'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extensions ['python_setup_py']
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jk) by extension 'python_setup_py'
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'ignore'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'ignore_ament_install'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extensions ['colcon_pkg']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'colcon_pkg'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extensions ['colcon_meta']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'colcon_meta'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extensions ['ros']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'ros'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extensions ['cmake', 'python']
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'cmake'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'python'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extensions ['python_setup_py']
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi) by extension 'python_setup_py'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'ignore'
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'ignore_ament_install'
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extensions ['colcon_pkg']
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'colcon_pkg'
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extensions ['colcon_meta']
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'colcon_meta'
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extensions ['ros']
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'ros'
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extensions ['cmake', 'python']
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'cmake'
+[0.757s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'python'
+[0.757s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extensions ['python_setup_py']
+[0.757s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src) by extension 'python_setup_py'
+[0.757s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extension 'ignore'
+[0.757s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extension 'ignore_ament_install'
+[0.758s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extensions ['colcon_pkg']
+[0.758s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extension 'colcon_pkg'
+[0.758s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extensions ['colcon_meta']
+[0.758s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extension 'colcon_meta'
+[0.758s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extensions ['ros']
+[0.758s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_interfaces) by extension 'ros'
+[0.765s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mavivatan_otonomi/src/mavivatan_interfaces' with type 'ros.ament_cmake' and name 'mavivatan_interfaces'[0m
+[0.766s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extension 'ignore'
+[0.766s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extension 'ignore_ament_install'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extensions ['colcon_pkg']
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extension 'colcon_pkg'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extensions ['colcon_meta']
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extension 'colcon_meta'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extensions ['ros']
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavivatan_otonomi/src/mavivatan_paket) by extension 'ros'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mavivatan_otonomi/src/mavivatan_paket' with type 'ros.ament_python' and name 'mavivatan_paket'[0m
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extension 'ignore'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extension 'colcon_meta'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extensions ['ros']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-interfaces) by extension 'ros'
+[0.773s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_msgs'[0m
+[0.773s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'ignore'
+[0.774s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.774s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.774s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.774s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.774s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.774s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extensions ['ros']
+[0.774s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'ros'
+[0.775s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.775s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'cmake'
+[0.775s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'python'
+[0.775s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.775s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.775s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'ignore'
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'ignore_ament_install'
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_pkg']
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'colcon_pkg'
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_meta']
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'colcon_meta'
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extensions ['ros']
+[0.776s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'ros'
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extensions ['cmake', 'python']
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'cmake'
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'python'
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extensions ['python_setup_py']
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/docker) by extension 'python_setup_py'
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'ros'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'python'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.794s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'[0m
+[0.795s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extension 'ignore'
+[0.795s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extension 'ignore_ament_install'
+[0.795s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extensions ['colcon_pkg']
+[0.795s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extension 'colcon_pkg'
+[0.796s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extensions ['colcon_meta']
+[0.796s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extension 'colcon_meta'
+[0.796s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extensions ['ros']
+[0.796s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_debug) by extension 'ros'
+[0.799s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/zed-ros2-wrapper/zed_debug' with type 'ros.ament_cmake' and name 'zed_debug'[0m
+[0.799s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.800s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.800s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.800s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.800s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.800s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.800s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.800s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.802s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'[0m
+[0.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'[0m
+[0.843s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.843s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.843s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.843s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.844s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.892s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.893s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.895s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.896s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_wrapper' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.896s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_debug' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.896s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_components' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.896s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.896s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/mavivatan_paket' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.896s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/mavivatan_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.897s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.897s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_wrapper' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.897s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_debug' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.897s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_components' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.897s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/zed_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.897s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/baris/mavivatan_ws/install/mavivatan_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.899s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /home/baris/mavivatan_ws/install[0m
+[0.902s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 283 installed packages in /opt/ros/humble[0m
+[0.905s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.011s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.011s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.012s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mavivatan_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baris/mavivatan_ws/build/mavivatan_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baris/mavivatan_ws/install/mavivatan_interfaces', 'merge_install': False, 'path': '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[1.013s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'cmake_args' from command line to 'None'
+[1.013s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'cmake_target' from command line to 'None'
+[1.013s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.013s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.013s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.013s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.014s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.014s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.014s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.014s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baris/mavivatan_ws/build/zed_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baris/mavivatan_ws/install/zed_msgs', 'merge_install': False, 'path': '/home/baris/mavivatan_ws/src/zed-ros2-interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'cmake_args' from command line to 'None'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'cmake_target' from command line to 'None'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'cmake_clean_cache' from command line to 'False'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'cmake_clean_first' from command line to 'False'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'cmake_force_configure' from command line to 'False'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'ament_cmake_args' from command line to 'None'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'catkin_cmake_args' from command line to 'None'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavivatan_paket' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.015s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mavivatan_paket' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baris/mavivatan_ws/build/mavivatan_paket', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baris/mavivatan_ws/install/mavivatan_paket', 'merge_install': False, 'path': '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket', 'symlink_install': True, 'test_result_base': None}[0m
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_args' from command line to 'None'
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_target' from command line to 'None'
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_clean_cache' from command line to 'False'
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_clean_first' from command line to 'False'
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_force_configure' from command line to 'False'
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'ament_cmake_args' from command line to 'None'
+[1.016s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'catkin_cmake_args' from command line to 'None'
+[1.017s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.017s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baris/mavivatan_ws/build/zed_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baris/mavivatan_ws/install/zed_components', 'merge_install': False, 'path': '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components', 'symlink_install': True, 'test_result_base': None}[0m
+[1.017s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'cmake_args' from command line to 'None'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'cmake_target' from command line to 'None'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'cmake_clean_cache' from command line to 'False'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'cmake_clean_first' from command line to 'False'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'cmake_force_configure' from command line to 'False'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'ament_cmake_args' from command line to 'None'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'catkin_cmake_args' from command line to 'None'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_debug' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.018s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_debug' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baris/mavivatan_ws/build/zed_debug', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baris/mavivatan_ws/install/zed_debug', 'merge_install': False, 'path': '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_debug', 'symlink_install': True, 'test_result_base': None}[0m
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_args' from command line to 'None'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_target' from command line to 'None'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.019s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baris/mavivatan_ws/build/zed_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baris/mavivatan_ws/install/zed_wrapper', 'merge_install': False, 'path': '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_wrapper', 'symlink_install': True, 'test_result_base': None}[0m
+[1.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_args' from command line to 'None'
+[1.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_target' from command line to 'None'
+[1.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.021s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.021s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.021s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.021s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.021s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baris/mavivatan_ws/build/zed_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baris/mavivatan_ws/install/zed_ros2', 'merge_install': False, 'path': '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_ros2', 'symlink_install': True, 'test_result_base': None}[0m
+[1.021s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.023s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.024s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/baris/mavivatan_ws/src/zed-ros2-interfaces' with build type 'ament_cmake'
+[1.024s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/baris/mavivatan_ws/src/zed-ros2-interfaces'
+[1.029s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.029s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.030s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.041s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces' with build type 'ament_cmake'
+[1.041s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces'
+[1.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.042s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.069s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_msgs[0m
+[1.112s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/mavivatan_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake /home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/mavivatan_interfaces[0m
+[5.034s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/mavivatan_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake /home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/mavivatan_interfaces[0m
+[5.035s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/mavivatan_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/mavivatan_interfaces -- -j6 -l6[0m
+[6.572s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_msgs[0m
+[6.573s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_msgs -- -j6 -l6[0m
+[15.148s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/mavivatan_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/mavivatan_interfaces -- -j6 -l6[0m
+[15.175s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/mavivatan_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/mavivatan_interfaces[0m
+[17.351s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mavivatan_interfaces)
+[17.357s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces' for CMake module files
+[17.358s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/mavivatan_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/mavivatan_interfaces[0m
+[17.360s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces' for CMake config files
+[17.362s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavivatan_interfaces', 'cmake_prefix_path')
+[17.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/cmake_prefix_path.ps1'
+[17.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/cmake_prefix_path.dsv'
+[17.366s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/cmake_prefix_path.sh'
+[17.376s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib'
+[17.377s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavivatan_interfaces', 'ld_library_path_lib')
+[17.377s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/ld_library_path_lib.ps1'
+[17.379s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/ld_library_path_lib.dsv'
+[17.380s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/ld_library_path_lib.sh'
+[17.381s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/bin'
+[17.381s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/pkgconfig/mavivatan_interfaces.pc'
+[17.392s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/python3.10/site-packages'
+[17.398s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/bin'
+[17.400s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.ps1'
+[17.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.dsv'
+[17.426s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.sh'
+[17.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.bash'
+[17.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.zsh'
+[17.441s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/colcon-core/packages/mavivatan_interfaces)
+[17.444s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mavivatan_interfaces)
+[17.444s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces' for CMake module files
+[17.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces' for CMake config files
+[17.448s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavivatan_interfaces', 'cmake_prefix_path')
+[17.449s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/cmake_prefix_path.ps1'
+[17.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/cmake_prefix_path.dsv'
+[17.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/cmake_prefix_path.sh'
+[17.454s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib'
+[17.454s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavivatan_interfaces', 'ld_library_path_lib')
+[17.455s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/ld_library_path_lib.ps1'
+[17.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/ld_library_path_lib.dsv'
+[17.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/hook/ld_library_path_lib.sh'
+[17.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/bin'
+[17.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/pkgconfig/mavivatan_interfaces.pc'
+[17.459s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib/python3.10/site-packages'
+[17.460s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_interfaces/bin'
+[17.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.ps1'
+[17.463s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.dsv'
+[17.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.sh'
+[17.466s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.bash'
+[17.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/mavivatan_interfaces/package.zsh'
+[17.479s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/mavivatan_interfaces/share/colcon-core/packages/mavivatan_interfaces)
+[17.480s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket' with build type 'ament_python'
+[17.480s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavivatan_paket', 'ament_prefix_path')
+[17.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/hook/ament_prefix_path.ps1'
+[17.483s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/hook/ament_prefix_path.dsv'
+[17.494s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/hook/ament_prefix_path.sh'
+[17.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.496s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[20.317s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket'
+[20.318s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.318s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[22.541s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/mavivatan_paket': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baris/mavivatan_ws/build/mavivatan_paket/build --no-deps symlink_data[0m
+[24.716s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavivatan_paket', 'pythonpath_develop')
+[24.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/build/mavivatan_paket/share/mavivatan_paket/hook/pythonpath_develop.ps1'
+[24.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/build/mavivatan_paket/share/mavivatan_paket/hook/pythonpath_develop.dsv'
+[24.721s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/build/mavivatan_paket/share/mavivatan_paket/hook/pythonpath_develop.sh'
+[24.720s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/mavivatan_paket' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/baris/mavivatan_ws/build/mavivatan_paket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baris/mavivatan_ws/build/mavivatan_paket/build --no-deps symlink_data[0m
+[24.722s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_paket' for CMake module files
+[24.723s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_paket' for CMake config files
+[24.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_paket/lib'
+[24.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_paket/bin'
+[24.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_paket/lib/pkgconfig/mavivatan_paket.pc'
+[24.726s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_paket/lib/python3.10/site-packages'
+[24.726s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavivatan_paket', 'pythonpath')
+[24.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/hook/pythonpath.ps1'
+[24.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/hook/pythonpath.dsv'
+[24.732s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/hook/pythonpath.sh'
+[24.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/mavivatan_paket/bin'
+[24.738s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mavivatan_paket)
+[24.747s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/package.ps1'
+[24.749s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/package.dsv'
+[24.753s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/package.sh'
+[24.763s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/package.bash'
+[24.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/mavivatan_paket/share/mavivatan_paket/package.zsh'
+[24.765s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/mavivatan_paket/share/colcon-core/packages/mavivatan_paket)
+[121.036s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_msgs -- -j6 -l6[0m
+[121.041s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_msgs[0m
+[130.404s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_msgs)
+[130.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs' for CMake module files
+[130.410s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs' for CMake config files
+[130.417s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_msgs', 'cmake_prefix_path')
+[130.418s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/cmake_prefix_path.ps1'
+[130.420s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/cmake_prefix_path.dsv'
+[130.421s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/cmake_prefix_path.sh'
+[130.425s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/lib'
+[130.426s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_msgs[0m
+[130.426s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_msgs', 'ld_library_path_lib')
+[130.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/ld_library_path_lib.ps1'
+[130.430s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/ld_library_path_lib.dsv'
+[130.433s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/ld_library_path_lib.sh'
+[130.435s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/bin'
+[130.435s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/lib/pkgconfig/zed_msgs.pc'
+[130.435s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/lib/python3.10/site-packages'
+[130.436s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/bin'
+[130.437s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.ps1'
+[130.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.dsv'
+[130.440s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.sh'
+[130.441s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.bash'
+[130.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.zsh'
+[130.442s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_msgs/share/colcon-core/packages/zed_msgs)
+[130.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_msgs)
+[130.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs' for CMake module files
+[130.447s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs' for CMake config files
+[130.461s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_msgs', 'cmake_prefix_path')
+[130.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/cmake_prefix_path.ps1'
+[130.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/cmake_prefix_path.dsv'
+[130.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/cmake_prefix_path.sh'
+[130.473s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/lib'
+[130.474s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_msgs', 'ld_library_path_lib')
+[130.475s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/ld_library_path_lib.ps1'
+[130.476s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/ld_library_path_lib.dsv'
+[130.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/hook/ld_library_path_lib.sh'
+[130.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/bin'
+[130.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/lib/pkgconfig/zed_msgs.pc'
+[130.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/lib/python3.10/site-packages'
+[130.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_msgs/bin'
+[130.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.ps1'
+[130.484s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.dsv'
+[130.485s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.sh'
+[130.486s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.bash'
+[130.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_msgs/share/zed_msgs/package.zsh'
+[130.488s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_msgs/share/colcon-core/packages/zed_msgs)
+[130.491s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components' with build type 'ament_cmake'
+[130.491s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components'
+[130.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[130.492s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[130.521s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_components[0m
+[137.088s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_components[0m
+[137.092s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_components -- -j6 -l6[0m
+[388.407s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_components -- -j6 -l6[0m
+[388.423s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_components[0m
+[389.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_components)
+[389.274s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components' for CMake module files
+[389.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components' for CMake config files
+[389.277s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_components', 'cmake_prefix_path')
+[389.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[389.280s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_components[0m
+[389.293s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[389.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[389.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/lib'
+[389.298s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_components', 'ld_library_path_lib')
+[389.299s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[389.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[389.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[389.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/bin'
+[389.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/lib/pkgconfig/zed_components.pc'
+[389.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/lib/python3.10/site-packages'
+[389.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/bin'
+[389.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.ps1'
+[389.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.dsv'
+[389.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.sh'
+[389.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.bash'
+[389.316s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.zsh'
+[389.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_components/share/colcon-core/packages/zed_components)
+[389.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_components)
+[389.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components' for CMake module files
+[389.322s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components' for CMake config files
+[389.323s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_components', 'cmake_prefix_path')
+[389.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[389.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[389.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[389.327s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/lib'
+[389.327s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_components', 'ld_library_path_lib')
+[389.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[389.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[389.330s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[389.330s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/bin'
+[389.331s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/lib/pkgconfig/zed_components.pc'
+[389.331s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/lib/python3.10/site-packages'
+[389.335s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_components/bin'
+[389.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.ps1'
+[389.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.dsv'
+[389.339s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.sh'
+[389.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.bash'
+[389.341s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.zsh'
+[389.342s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_components/share/colcon-core/packages/zed_components)
+[389.345s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_wrapper' with build type 'ament_cmake'
+[389.345s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_wrapper'
+[389.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[389.346s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[389.361s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_debug' with build type 'ament_cmake'
+[389.361s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_debug'
+[389.362s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[389.362s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[389.396s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_wrapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_wrapper[0m
+[389.407s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_debug': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_debug[0m
+[392.279s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_wrapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_wrapper[0m
+[392.294s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_wrapper -- -j6 -l6[0m
+[392.454s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_wrapper -- -j6 -l6[0m
+[392.460s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_wrapper[0m
+[394.390s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_wrapper)
+[394.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper' for CMake module files
+[394.392s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper' for CMake config files
+[394.393s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[394.393s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[394.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[394.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[394.394s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_wrapper[0m
+[394.398s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/bin'
+[394.399s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[394.399s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/lib/python3.10/site-packages'
+[394.400s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/bin'
+[394.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[394.402s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[394.403s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.sh'
+[394.404s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.bash'
+[394.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[394.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[394.408s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_wrapper)
+[394.408s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper' for CMake module files
+[394.409s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper' for CMake config files
+[394.410s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[394.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[394.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[394.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[394.414s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/bin'
+[394.414s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[394.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/lib/python3.10/site-packages'
+[394.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_wrapper/bin'
+[394.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[394.418s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[394.419s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.sh'
+[394.422s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.bash'
+[394.423s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[394.424s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[394.426s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_ros2' with build type 'ament_cmake'
+[394.426s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_ros2'
+[394.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[394.427s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[394.470s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_ros2': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_ros2[0m
+[395.652s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_ros2[0m
+[395.653s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_ros2': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_ros2 -- -j6 -l6[0m
+[395.773s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_ros2 -- -j6 -l6[0m
+[395.774s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_ros2': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_ros2[0m
+[396.164s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_ros2)
+[396.165s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2' for CMake module files
+[396.166s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_ros2[0m
+[396.168s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2' for CMake config files
+[396.170s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[396.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[396.175s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[396.176s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[396.179s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/bin'
+[396.184s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[396.186s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/lib/python3.10/site-packages'
+[396.187s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/bin'
+[396.188s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.ps1'
+[396.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.dsv'
+[396.194s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.sh'
+[396.195s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.bash'
+[396.197s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.zsh'
+[396.199s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[396.206s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_ros2)
+[396.207s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2' for CMake module files
+[396.208s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2' for CMake config files
+[396.209s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[396.209s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[396.211s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[396.211s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[396.213s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/bin'
+[396.213s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[396.213s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/lib/python3.10/site-packages'
+[396.214s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_ros2/bin'
+[396.215s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.ps1'
+[396.216s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.dsv'
+[396.223s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.sh'
+[396.229s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.bash'
+[396.230s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_ros2/share/zed_ros2/package.zsh'
+[396.231s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[397.061s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_debug' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_debug[0m
+[397.069s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_debug': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_debug -- -j6 -l6[0m
+[416.924s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_debug' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_debug -- -j6 -l6[0m
+[416.926s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/baris/mavivatan_ws/build/zed_debug': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_debug[0m
+[417.599s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_debug)
+[417.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug' for CMake module files
+[417.601s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/baris/mavivatan_ws/build/zed_debug' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_debug[0m
+[417.602s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug' for CMake config files
+[417.603s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_debug', 'cmake_prefix_path')
+[417.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/hook/cmake_prefix_path.ps1'
+[417.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/hook/cmake_prefix_path.dsv'
+[417.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/hook/cmake_prefix_path.sh'
+[417.607s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/lib'
+[417.607s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/bin'
+[417.607s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/lib/pkgconfig/zed_debug.pc'
+[417.608s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/lib/python3.10/site-packages'
+[417.608s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/bin'
+[417.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.ps1'
+[417.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.dsv'
+[417.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.sh'
+[417.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.bash'
+[417.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.zsh'
+[417.614s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_debug/share/colcon-core/packages/zed_debug)
+[417.615s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_debug)
+[417.616s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug' for CMake module files
+[417.617s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug' for CMake config files
+[417.618s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('zed_debug', 'cmake_prefix_path')
+[417.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/hook/cmake_prefix_path.ps1'
+[417.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/hook/cmake_prefix_path.dsv'
+[417.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/hook/cmake_prefix_path.sh'
+[417.622s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/lib'
+[417.622s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/bin'
+[417.622s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/lib/pkgconfig/zed_debug.pc'
+[417.623s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/lib/python3.10/site-packages'
+[417.623s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/baris/mavivatan_ws/install/zed_debug/bin'
+[417.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.ps1'
+[417.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.dsv'
+[417.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.sh'
+[417.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.bash'
+[417.628s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/baris/mavivatan_ws/install/zed_debug/share/zed_debug/package.zsh'
+[417.630s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/baris/mavivatan_ws/install/zed_debug/share/colcon-core/packages/zed_debug)
+[417.631s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[417.632s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[417.633s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[417.634s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[417.662s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[417.662s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[417.663s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[417.742s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[417.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/baris/mavivatan_ws/install/local_setup.ps1'
+[417.746s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/baris/mavivatan_ws/install/_local_setup_util_ps1.py'
+[417.750s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/baris/mavivatan_ws/install/setup.ps1'
+[417.753s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/baris/mavivatan_ws/install/local_setup.sh'
+[417.755s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/baris/mavivatan_ws/install/_local_setup_util_sh.py'
+[417.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/baris/mavivatan_ws/install/setup.sh'
+[417.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/baris/mavivatan_ws/install/local_setup.bash'
+[417.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/baris/mavivatan_ws/install/setup.bash'
+[417.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/baris/mavivatan_ws/install/local_setup.zsh'
+[417.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/baris/mavivatan_ws/install/setup.zsh'

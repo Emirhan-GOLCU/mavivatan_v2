@@ -1,0 +1,115 @@
+[0.030s] Invoking command in '/home/baris/mavivatan_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_components
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.463s] -- The CXX compiler identification is GNU 11.4.0
+[0.496s] -- Detecting C compiler ABI info
+[0.817s] -- Detecting C compiler ABI info - done
+[0.841s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.842s] -- Detecting C compile features
+[0.844s] -- Detecting C compile features - done
+[0.851s] -- Detecting CXX compiler ABI info
+[1.235s] -- Detecting CXX compiler ABI info - done
+[1.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.266s] -- Detecting CXX compile features
+[1.266s] -- Detecting CXX compile features - done
+[1.289s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[1.321s] -- Looking for sgemm_
+[1.552s] -- Looking for sgemm_ - not found
+[1.564s] -- Looking for pthread.h
+[1.786s] -- Looking for pthread.h - found
+[1.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.002s] -- Found Threads: TRUE  
+[2.144s] -- Looking for sgemm_
+[2.399s] -- Looking for sgemm_ - found
+[2.400s] -- Found BLAS: /usr/lib/aarch64-linux-gnu/libopenblas.so  
+[2.480s] -- Found CUDA: /usr/local/cuda (found suitable version "12.6", minimum required is "12.6") 
+[2.600s] -- Found CUDA: /usr/local/cuda (found version "12.6") 
+[2.610s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.124s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.208s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.233s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.273s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.669s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.703s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.158s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.236s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.007s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.010s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.011s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.322s] --  * Type Adaptation for sl::Mat is enabled
+[6.325s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.427s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.432s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.433s] -- Configured cppcheck include dirs: /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/tools/include;/home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera_one/include
+[6.433s] -- Configured cppcheck exclude dirs and/or files: 
+[6.435s] -- Added test 'lint_cmake' to check CMake code style
+[6.440s] -- Added test 'uncrustify' to check C / C++ code style
+[6.441s] -- Configured uncrustify additional arguments: 
+[6.442s] -- Added test 'xmllint' to check XML markup files
+[6.451s] -- Configuring done
+[6.535s] -- Generating done
+[6.560s] -- Build files have been written to: /home/baris/mavivatan_ws/build/zed_components
+[6.597s] Invoked command in '/home/baris/mavivatan_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/baris/mavivatan_ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baris/mavivatan_ws/install/zed_components
+[6.601s] Invoking command in '/home/baris/mavivatan_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_components -- -j6 -l6
+[6.732s] [  5%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[19.797s] [ 11%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_main.cpp.o[0m
+[20.835s] [ 17%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_types.cpp.o[0m
+[21.878s] [ 23%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[22.343s] [ 29%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[23.373s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_video_depth.cpp.o[0m
+[23.445s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_objdet.cpp.o[0m
+[79.872s] [ 47%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_bodytrk.cpp.o[0m
+[200.707s] [ 52%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[202.735s] [ 52%] Built target zed_camera_component
+[202.831s] [ 58%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[202.853s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[202.864s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[202.874s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_main.cpp.o[0m
+[202.876s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_types.cpp.o[0m
+[202.891s] [ 88%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_sensors.cpp.o[0m
+[204.478s] [ 94%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_video.cpp.o[0m
+[256.672s] [100%] [32m[1mLinking CXX shared library libzed_camera_one_component.so[0m
+[257.860s] [100%] Built target zed_camera_one_component
+[257.912s] Invoked command in '/home/baris/mavivatan_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/baris/mavivatan_ws/build/zed_components -- -j6 -l6
+[257.930s] Invoking command in '/home/baris/mavivatan_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_components
+[257.954s] -- Install configuration: "Release"
+[257.959s] -- Execute custom install script
+[257.960s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/lib/libzed_camera_component.so
+[257.979s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/lib/libzed_camera_one_component.so
+[257.998s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//cost_traversability.hpp
+[258.025s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[258.047s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//zed_camera_one_component.hpp
+[258.067s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//gnss_replay.hpp
+[258.099s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//sl_logging.hpp
+[258.128s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//sl_tools.hpp
+[258.150s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//sl_type_adapter.hpp
+[258.171s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//sl_types.hpp
+[258.191s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+[258.209s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//sl_version.hpp
+[258.226s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/include/zed_components//visibility_control.hpp
+[258.246s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/environment/library_path.sh
+[258.275s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[258.297s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[258.320s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[258.343s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[258.367s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[258.405s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/environment/path.sh
+[258.428s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/environment/path.dsv
+[258.471s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/local_setup.bash
+[258.500s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/local_setup.sh
+[258.565s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/local_setup.zsh
+[258.592s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/local_setup.dsv
+[258.613s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.dsv
+[258.631s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[258.649s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[258.666s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[258.683s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[258.699s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[258.715s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[258.739s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[258.754s] -- Symlinking: /home/baris/mavivatan_ws/install/zed_components/share/zed_components/package.xml
+[258.789s] Invoked command in '/home/baris/mavivatan_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/baris/mavivatan_ws/install/zed_msgs:/home/baris/mavivatan_ws/install/zed_ros2:/home/baris/mavivatan_ws/install/zed_wrapper:/home/baris/mavivatan_ws/install/zed_debug:/home/baris/mavivatan_ws/install/zed_components:/home/baris/mavivatan_ws/install/mavivatan_interfaces:/home/baris/mavivatan_ws/install/mavivatan_paket:/opt/ros/humble LD_LIBRARY_PATH=/home/baris/mavivatan_ws/install/zed_msgs/lib:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/home/baris/mavivatan_ws/install/zed_components/lib:/home/baris/mavivatan_ws/install/mavivatan_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/baris/mavivatan_ws/build/zed_components
