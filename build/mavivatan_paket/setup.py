@@ -1,1 +1,0 @@
-/home/baris/mavivatan_ws/src/mavivatan_otonomi/src/mavivatan_paket/setup.py
